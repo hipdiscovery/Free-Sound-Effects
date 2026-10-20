@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hipdiscovery.github.io/free-sound-effects/catalog.schema.json",
+  "title": "Free Sound Effects catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "updated",
+    "metadataLicense",
+    "sources",
+    "sounds"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "metadataLicense": {
+      "const": "CC0-1.0"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "creator",
+          "url",
+          "downloadUrl",
+          "license",
+          "licenseUrl",
+          "bundledLicense",
+          "evidence",
+          "checkedOn",
+          "redistributionVerified",
+          "archiveSha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "creator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "downloadUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "license": {
+            "const": "CC0-1.0"
+          },
+          "licenseUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "bundledLicense": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "redistributionVerified": {
+            "const": true
+          },
+          "archiveSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "sounds": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "category",
+          "tags",
+          "creator",
+          "sourceId",
+          "sourceUrl",
+          "license",
+          "path",
+          "originalFilename",
+          "sha256",
+          "bytes",
+          "durationSeconds",
+          "sampleRate",
+          "channels"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "creator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "license": {
+            "const": "CC0-1.0"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^audio/[a-z0-9/_-]+\\.ogg$"
+          },
+          "originalFilename": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "durationSeconds": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 120
+          },
+          "sampleRate": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "channels": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    }
+  }
+}

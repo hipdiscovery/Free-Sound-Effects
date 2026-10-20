@@ -1,0 +1,8 @@
+* text=auto eol=lf
+licenses/kenney-interface.txt binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.json text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf

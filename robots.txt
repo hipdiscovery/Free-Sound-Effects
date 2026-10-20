@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hipdiscovery.github.io/free-sound-effects/sitemap.xml

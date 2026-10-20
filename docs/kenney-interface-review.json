@@ -1,0 +1,26 @@
+{
+  "sourceId": "kenney-interface",
+  "reviewedOn": "2026-10-20",
+  "originalCreator": "Kenney",
+  "originalPage": "https://kenney.nl/assets/interface-sounds",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+  "archiveSha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+  "pageResponseSha256": "0394b2812d8701a9ca083e16eddf8daa445b7bb33c71be23123e7bf3c590e96f",
+  "officialPageLicenseLabel": "Creative Commons CC0",
+  "bundledLicensePath": "licenses/kenney-interface.txt",
+  "bundledLicenseSha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "decision": "Redistribution permitted by original creator CC0 dedication. Import the 100 Audio/*.ogg files unchanged; exclude branding and shortcut files.",
+  "scope": "Interface Sounds 1.0 audio only",
+  "checks": [
+    "Official original-creator page reviewed on check date",
+    "Official download fetched directly from page link",
+    "Bundled license reviewed and retained",
+    "All 100 audio file hashes and Ogg metadata recorded"
+  ],
+  "limitations": [
+    "CC0 does not cover trademark, privacy or publicity rights",
+    "Checksums detect exact duplicates, not perceptual similarity",
+    "Not a warranty or independent chain-of-title audit"
+  ]
+}

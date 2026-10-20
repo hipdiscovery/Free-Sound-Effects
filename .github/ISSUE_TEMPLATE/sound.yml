@@ -1,0 +1,30 @@
+name: Submit a sound or source
+description: Propose original CC0 audio or a verified creator source
+title: "[Sound] "
+body:
+  - type: textarea
+    id: sound
+    attributes:
+      label: Sound and intended use
+      description: Describe the sound, categories and why it belongs here.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Original creator and source links
+      description: Include creator, original page, download, filenames and any existing catalog IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: Explicit CC0 license evidence
+      description: Link the original creator's CC0 grant and license file. Free download alone is not enough.
+    validations:
+      required: true
+  - type: textarea
+    id: duplicates
+    attributes:
+      label: Duplicate review and checks
+      description: Include SHA-256 if available, listening checks and limitations.

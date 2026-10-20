@@ -1,0 +1,11 @@
+name: Request a sound
+description: Suggest a missing sound, category or improvement
+title: "[Request] "
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What sound do you need?
+      description: Describe the action, style, duration and project use. Do not include private data.
+    validations:
+      required: true

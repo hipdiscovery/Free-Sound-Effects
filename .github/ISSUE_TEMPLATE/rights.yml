@@ -1,0 +1,11 @@
+name: Report a rights or attribution concern
+description: Report a provenance, license or credit problem
+title: "[Rights] "
+body:
+  - type: textarea
+    id: concern
+    attributes:
+      label: Affected sound IDs and evidence
+      description: Explain the concern with public source links. Do not attach private documents.
+    validations:
+      required: true
