@@ -1,1 +1,10 @@
-{"name":"free-sound-effects","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node scripts/validate.mjs && node scripts/test-validator.mjs","serve":"python -m http.server 8097 --bind 127.0.0.1"}}
+{
+  "name": "free-sound-effects",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs && node scripts/test-validator.mjs",
+    "serve": "python -m http.server 8097 --bind 127.0.0.1"
+  }
+}
