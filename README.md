@@ -6,7 +6,7 @@
 
 ## Creator resources
 
-Five [Muaaz (@mws)](https://x.com/mws) collections are linked at their original sources: 297 external effects, 84 fonts, 120 title templates, 22 video animations and 234 thumbnail examples. The [searchable directory](resources.html) adds 30 individually observed font source links (23 commercial-use open-source Google Fonts, seven font-site listings needing license review). Full evidence, access requirements and caveats are in [the Muaaz resource review](docs/MUAAZ_RESOURCES.md), with a separate [resources.json](resources.json) machine catalog.
+Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original sources: 230+ sponsor/affiliate programs, 100+ short-form hooks, 297 external effects, 84 fonts, 120 title templates, 22 video animations and 234 thumbnail examples. The [searchable directory](resources.html) adds 30 individually observed font source links (23 commercial-use open-source Google Fonts, seven font-site listings needing license review). Full evidence, access requirements and caveats are in [the Muaaz resource review](docs/MUAAZ_RESOURCES.md), with a separate [resources.json](resources.json) machine catalog.
 
 **Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. Some author ZIP packs require email and newsletter signup; a free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
 

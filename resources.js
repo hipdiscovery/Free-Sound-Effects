@@ -7,7 +7,7 @@ const empty = document.querySelector("#res-empty");
 const buttons = [...document.querySelectorAll("[data-filter]")];
 let catalog = null;
 let category = "All";
-const categories = new Set(["All", "Fonts", "Audio", "Motion", "Planning"]);
+const categories = new Set(["All", "Fonts", "Audio", "Motion", "Planning", "Business"]);
 function node(tag, className, value) {
   const el = document.createElement(tag);
   if (className) el.className = className;
@@ -25,7 +25,7 @@ function sourceLink(title, url) {
 function collectionCard(item) {
   const card = node("article", "res-card");
   const top = node("div", "res-card-top");
-  top.append(node("span", "", item.category), node("span", "res-count", item.itemCount + " items"));
+  top.append(node("span", "", item.category), node("span", "res-count", item.countLabel || item.itemCount + " items"));
   const details = node("div", "res-card-details");
   details.append(node("span", "res-access", item.access), node("span", "res-rights", item.rights));
   const links = node("div", "res-card-links");

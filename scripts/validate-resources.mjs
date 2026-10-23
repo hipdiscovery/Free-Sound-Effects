@@ -7,7 +7,7 @@ assert(Array.isArray(c.collections) && c.collections.length > 0);
 assert(Array.isArray(c.fonts) && c.fonts.length > 0);
 const ids = new Set();
 const urls = new Set();
-const categories = new Set(["Audio", "Fonts", "Motion", "Planning"]);
+const categories = new Set(["Audio", "Fonts", "Motion", "Planning", "Business"]);
 const urlCheck = value => {
   assert(typeof value === "string" && /^https:\/\//.test(value));
   const parsed = new URL(value);
@@ -25,6 +25,7 @@ for (const item of [...c.collections, ...c.fonts]) {
 for (const item of c.collections) {
   assert(categories.has(item.category));
   assert(Number.isSafeInteger(item.itemCount) && item.itemCount > 0);
+  if (item.countLabel !== undefined) assert(typeof item.countLabel === "string" && item.countLabel.length > 0);
   for (const key of ["title", "access", "rights", "description"]) assert(typeof item[key] === "string" && item[key].trim());
   urlCheck(item.creatorPost);
   if (item.downloadPage) urlCheck(item.downloadPage);
