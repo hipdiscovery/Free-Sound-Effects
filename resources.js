@@ -74,7 +74,7 @@ document.addEventListener("keydown", event => {
   }
 });
 try {
-  const response = await fetch("resources.json");
+  const response = await fetch("resources.json?v=20261023-2");
   if (!response.ok) throw new Error("HTTP " + response.status);
   const parsed = await response.json();
   if (parsed.schemaVersion !== 1 || !Array.isArray(parsed.collections) || !Array.isArray(parsed.fonts)) throw new Error("Invalid catalog");
