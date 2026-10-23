@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-23",
+  "curator": {
+    "name": "Muaaz (@mws)",
+    "profileUrl": "https://x.com/mws"
+  },
+  "fontsSourceUrl": "https://muaazws.notion.site/Fonts-Creators-Use-40084fe99b3180079c8cf687c4df5ccd",
+  "collections": [
+    {
+      "id": "muaaz-sound-effects",
+      "title": "297 sound effects for creators",
+      "category": "Audio",
+      "itemCount": 297,
+      "link": "https://muaazws.notion.site/Sound-Effects-Creators-Actually-Use-3fe84fe99b3181ad9cbed1be16bfa69b",
+      "creatorPost": "https://x.com/mws/status/2112338141965144309",
+      "access": "Free previews; ZIP via email",
+      "rights": "Redistribution unverified",
+      "description": "Sound effects for short-form and YouTube edits. The external collection is not mirrored: the original-source and redistribution licenses have not been verified.",
+      "downloadPage": "https://muaaz.lol/products/sfx"
+    },
+    {
+      "id": "muaaz-font-pack",
+      "title": "84 fonts creators use",
+      "category": "Fonts",
+      "itemCount": 84,
+      "link": "https://muaazws.notion.site/Fonts-Creators-Use-40084fe99b3180079c8cf687c4df5ccd",
+      "creatorPost": "https://x.com/mws/status/2112697882939912400",
+      "access": "Free directory; ZIP via email",
+      "rights": "Mixed font licenses",
+      "description": "Fonts for thumbnails, subtitles and overlays. The ZIP requires email/newsletter signup, and each font's terms must be reviewed individually.",
+      "downloadPage": "https://muaaz.lol/products/fonts"
+    },
+    {
+      "id": "muaaz-video-titles",
+      "title": "120 YouTube title templates",
+      "category": "Planning",
+      "itemCount": 120,
+      "link": "https://muaazws.notion.site/Title-Formats-YouTubers-Actually-Use-40084fe99b31811aab42c2b850cbeed7",
+      "creatorPost": "https://x.com/mws/status/2113058517431038038",
+      "access": "Free open reference",
+      "rights": "Reference only",
+      "description": "Fill-in-the-blank title formats with real video examples. Adapt structures to accurate, original ideas instead of copying another creator's claims."
+    },
+    {
+      "id": "muaaz-video-animations",
+      "title": "22 subscribe and like animations",
+      "category": "Motion",
+      "itemCount": 22,
+      "link": "https://muaaz.lol/products/youtube-animations",
+      "creatorPost": "https://x.com/mws/status/2113391992935735792",
+      "access": "Free with email/newsletter",
+      "rights": "Rehosting not permitted by evidence",
+      "description": "Light and dark subscribe, like and bell motion assets, supplied as green-screen MP4 and transparent MOV. The author lists a roughly 430 MB ZIP."
+    },
+    {
+      "id": "muaaz-thumbnails",
+      "title": "234 thumbnails · 25 patterns",
+      "category": "Planning",
+      "itemCount": 234,
+      "link": "https://muaazws.notion.site/Thumbnail-Formats-YouTubers-Use-40284fe99b318103b490d7a1b537d555",
+      "creatorPost": "https://x.com/mws/status/2113761935124504579",
+      "access": "Free open reference",
+      "rights": "Reference only",
+      "description": "Study 25 thumbnail layouts using 234 real-world examples. Inspiration for original designs, not permission to copy others' thumbnails."
+    }
+  ],
+  "fonts": [
+    {
+      "id": "luckiest-guy",
+      "name": "Luckiest Guy",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Luckiest+Guy"
+    },
+    {
+      "id": "fredoka",
+      "name": "Fredoka",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Fredoka"
+    },
+    {
+      "id": "chewy",
+      "name": "Chewy",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Chewy"
+    },
+    {
+      "id": "baloo-2",
+      "name": "Baloo 2",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Baloo+2"
+    },
+    {
+      "id": "titan-one",
+      "name": "Titan One",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Titan+One"
+    },
+    {
+      "id": "lilita-one",
+      "name": "Lilita One",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Lilita+One"
+    },
+    {
+      "id": "carter-one",
+      "name": "Carter One",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Carter+One"
+    },
+    {
+      "id": "bangers",
+      "name": "Bangers",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Bangers"
+    },
+    {
+      "id": "bowlby-one",
+      "name": "Bowlby One",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Bowlby+One"
+    },
+    {
+      "id": "sigmar-one",
+      "name": "Sigmar One",
+      "style": "Playful",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Sigmar+One"
+    },
+    {
+      "id": "bebas-neue",
+      "name": "Bebas Neue",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Bebas+Neue"
+    },
+    {
+      "id": "anton",
+      "name": "Anton",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Anton"
+    },
+    {
+      "id": "oswald",
+      "name": "Oswald",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Oswald"
+    },
+    {
+      "id": "archivo-black",
+      "name": "Archivo Black",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Archivo+Black"
+    },
+    {
+      "id": "alfa-slab-one",
+      "name": "Alfa Slab One",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Alfa+Slab+One"
+    },
+    {
+      "id": "bungee",
+      "name": "Bungee",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Bungee"
+    },
+    {
+      "id": "passion-one",
+      "name": "Passion One",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Passion+One"
+    },
+    {
+      "id": "staatliches",
+      "name": "Staatliches",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Staatliches"
+    },
+    {
+      "id": "fjalla-one",
+      "name": "Fjalla One",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Fjalla+One"
+    },
+    {
+      "id": "league-spartan",
+      "name": "League Spartan",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/League+Spartan"
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Montserrat"
+    },
+    {
+      "id": "barlow-condensed",
+      "name": "Barlow Condensed",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Barlow+Condensed"
+    },
+    {
+      "id": "teko",
+      "name": "Teko",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Teko"
+    },
+    {
+      "id": "obelix-pro",
+      "name": "Obelix Pro",
+      "style": "Playful",
+      "source": "FontRiver",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.fontriver.com/font/obelix_pro/"
+    },
+    {
+      "id": "grobold",
+      "name": "GROBOLD",
+      "style": "Playful",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/grobold.font"
+    },
+    {
+      "id": "planet-comic",
+      "name": "Planet Comic",
+      "style": "Playful",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/planet-comic.font"
+    },
+    {
+      "id": "komika-axis",
+      "name": "Komika Axis",
+      "style": "Playful",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/komika-axis.font"
+    },
+    {
+      "id": "blues-smiles",
+      "name": "Blues Smiles",
+      "style": "Playful",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/blues-smile.font"
+    },
+    {
+      "id": "akira-expanded",
+      "name": "Akira Expanded",
+      "style": "Bold",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/akira-expanded.font"
+    },
+    {
+      "id": "lemon-milk",
+      "name": "Lemon Milk",
+      "style": "Bold",
+      "source": "DaFont",
+      "licenseStatus": "Check creator license",
+      "url": "https://www.dafont.com/lemon-milk.font"
+    }
+  ]
+}

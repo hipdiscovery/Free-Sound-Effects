@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102923">
+<meta name="description" content="Find source-checked free creator assets: fonts, video animations, titles, thumbnails and sound effects, with original links and license guidance.">
+<title>Creator resources & fonts | Creator Asset Library</title>
+<link rel="canonical" href="https://hipdiscovery.github.io/Free-Sound-Effects/resources.html">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="resources.css">
+<link rel="alternate" type="application/json" href="resources.json" title="Creator resources catalog">
+</head>
+<body>
+<a class="skip" href="#directory">Skip to resources</a>
+<header>
+  <a class="brand" href="./"><span class="mark" aria-hidden="true">▥</span> Creator Asset Library <span class="by">by hipdiscovery</span></a>
+  <nav aria-label="Main"><a href="./#library">Sound effects</a><a href="resources.html" aria-current="page">Resources</a><a class="contribute" href="https://github.com/hipdiscovery/Free-Sound-Effects">GitHub ↗</a></nav>
+</header>
+<main>
+  <section class="res-hero">
+    <div class="res-hero-copy">
+      <p class="res-kicker"><span class="res-kicker-dot" aria-hidden="true"></span> A SOURCE-FIRST CREATOR TOOLKIT</p>
+      <h1>More creating.<br><em>Less searching.</em></h1>
+      <p>Useful free resources organized in one place. Original creator links, clear access requirements and licensing notes — not unexplained asset ZIPs.</p>
+      <a class="res-hero-link" href="#directory">Explore the directory <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="res-hero-aside" aria-label="Library at a glance">
+      <p>THE LIBRARY <span>2026 / 01</span></p>
+      <div><strong id="collection-total">5</strong><span>creator collections</span></div>
+      <div><strong id="font-total">30</strong><span>linked font families</span></div>
+      <div><strong>100</strong><span><a href="./#library">CC0 sound previews ↗</a></span></div>
+      <small>Curated links. No mirrored downloads.</small>
+    </div>
+  </section>
+  <aside class="res-guidance">
+    <div><strong>Free to access does not mean free to redistribute.</strong><p>All external resources remain with their creators. Google Fonts are open source; the original family license governs copies. For other assets, review the publisher's terms before commercial use.</p></div>
+    <a href="docs/MUAAZ_RESOURCES.md">Read the source review ↗</a>
+  </aside>
+  <section class="res-directory" id="directory" aria-labelledby="directory-title">
+    <div class="res-section-heading"><div><p class="res-overline">01 / COLLECTIONS</p><h2 id="directory-title">The creator directory</h2></div><a href="resources.json">JSON catalog ↗</a></div>
+    <form id="res-form" role="search">
+      <label class="sr" for="res-query">Search resources and fonts</label>
+      <div class="res-input-wrap"><span aria-hidden="true">⌕</span><input id="res-query" type="search" placeholder="Search fonts, thumbnails, effects…" autocomplete="off"><kbd>/</kbd></div>
+      <button class="res-reset" id="res-reset" type="button">Reset</button>
+    </form>
+    <div class="res-filters" id="res-filters" role="group" aria-label="Filter by category">
+      <button type="button" data-filter="All" aria-pressed="true">All</button>
+      <button type="button" data-filter="Fonts" aria-pressed="false">Fonts</button>
+      <button type="button" data-filter="Audio" aria-pressed="false">Audio</button>
+      <button type="button" data-filter="Motion" aria-pressed="false">Motion</button>
+      <button type="button" data-filter="Planning" aria-pressed="false">Video planning</button>
+    </div>
+    <p id="res-status" class="res-status" role="status">Loading resource directory…</p>
+    <div id="res-collections" class="res-collection-grid"></div>
+    <section id="res-font-block" class="res-font-block" aria-labelledby="fonts-title">
+      <div class="res-section-heading res-font-heading"><div><p class="res-overline">02 / TYPE</p><h2 id="fonts-title">Individual font links</h2></div><p>23 Google Fonts · 7 independent sources</p></div>
+      <p class="res-font-note">These 30 fonts were located in Muaaz's public directory. Google Fonts are open source for commercial designs; the individual family license applies to redistribution and modification. Independent font sites need a separate license review. <a href="https://developers.google.com/fonts/faq">Google Fonts FAQ ↗</a></p>
+      <div id="res-fonts" class="res-font-grid"></div>
+    </section>
+    <div id="res-empty" class="res-empty" hidden><strong>No matching resources.</strong><p>Try another search or reset the filters.</p></div>
+    <noscript><p>Enable JavaScript for interactive filtering, or read the <a href="resources.json">JSON catalog</a>.</p></noscript>
+  </section>
+</main>
+<footer><span>Creator Asset Library / hipdiscovery</span><p>External resources remain with their creators. No sponsored links or asset mirrors.</p><a href="./#library">CC0 sound library ↗</a></footer>
+<script type="module" src="resources.js"></script>
+</body>
+</html>
