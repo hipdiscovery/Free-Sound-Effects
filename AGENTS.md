@@ -26,6 +26,9 @@ Public, buildless CC0 Ogg Vorbis catalog and preview site. Read `CONTRIBUTING.md
 
 ## Verification and delivery
 
+- Reuse the dependency-free validator and existing local server before proposing another test/build framework. A browser review must exercise loading/error notices, no results, preview switching and keyboard focus; a single populated screenshot is insufficient.
+- For an uncertain audio file, use already-installed FFmpeg/`ffprobe` on a bounded local sample to check decoding/metadata without replacing original bytes. Do not add a media dependency, transcode the catalog or fetch new sources merely for instruction validation; structural Ogg validation and exact hashes do not prove audible quality.
+- Accessibility scanners may supplement a demonstrated gap when already available locally; do not make an uninstalled scanner a mandatory gate. Inspect actual labels, focus order, playback status announcements and narrow-width reflow.
 - `npm test` already runs `node scripts/validate.mjs` and `node scripts/test-validator.mjs`; do not rerun the latter simply to count another check. Run `git diff --check` and review changed paths.
 - `npm run serve` starts the existing Python HTTP server. On Windows use a working installed interpreter if its `python` command is unavailable: `py -3 -m http.server 8097 --bind 127.0.0.1`.
 - Separate catalog validation, browser-decoded playback, audible listening and public deployment. Exact-byte uniqueness cannot prove perceptual deduplication. Verify deployed bytes before claiming Pages published a source commit.
