@@ -2,9 +2,9 @@
 
 > A community-maintained CC0 audio library for game developers, app developers, video editors and AI agents. Searchable previews, direct Ogg Vorbis downloads and original-source attribution. No API key or account required.
 
-- Website: https://hipdiscovery.github.io/free-sound-effects/
-- Catalog: https://hipdiscovery.github.io/free-sound-effects/catalog.json
-- JSON Schema: https://hipdiscovery.github.io/free-sound-effects/catalog.schema.json
+- Website: https://hipdiscovery.github.io/Free-Sound-Effects/
+- Catalog: https://hipdiscovery.github.io/Free-Sound-Effects/catalog.json
+- JSON Schema: https://hipdiscovery.github.io/Free-Sound-Effects/catalog.schema.json
 - Repository: https://github.com/hipdiscovery/free-sound-effects
 - Contribution guide: https://github.com/hipdiscovery/free-sound-effects/blob/master/CONTRIBUTING.md
 - Community contribution thread: https://github.com/hipdiscovery/free-sound-effects/issues/1

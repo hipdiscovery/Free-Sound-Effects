@@ -2,7 +2,7 @@
 
 **Open audio for your next game, app or video.** Search, preview and download 100 CC0 interface sound effects, with original creator attribution and a machine-readable catalog.
 
-**[Browse & preview the library](https://hipdiscovery.github.io/free-sound-effects/)** · **[JSON catalog](catalog.json)** · **[Join the contribution thread](https://github.com/hipdiscovery/free-sound-effects/issues/1)**
+**[Browse & preview the library](https://hipdiscovery.github.io/Free-Sound-Effects/)** · **[JSON catalog](catalog.json)** · **[Join the contribution thread](https://github.com/hipdiscovery/free-sound-effects/issues/1)**
 
 ## What is included
 
@@ -15,7 +15,7 @@ The searchable website supports category filters, duration sorting, volume, one 
 Start at [llms.txt](llms.txt), [AGENTS.md](AGENTS.md) and [catalog.schema.json](catalog.schema.json). The versioned JSON catalog includes stable IDs, tags, relative download paths, durations, sample rate, channels, byte sizes, SHA-256 and creator/license/source references. This is a static file interface, not a hosted search API.
 
 ```js
-const base = 'https://hipdiscovery.github.io/free-sound-effects/';
+const base = 'https://hipdiscovery.github.io/Free-Sound-Effects/';
 const catalog = await fetch(new URL('catalog.json', base)).then(r => r.json());
 const clicks = catalog.sounds.filter(s => s.tags.includes('click'));
 const downloadUrl = new URL(clicks[0].path, base);

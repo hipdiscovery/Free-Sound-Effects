@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://hipdiscovery.github.io/free-sound-effects/catalog.schema.json",
+  "$id": "https://hipdiscovery.github.io/Free-Sound-Effects/catalog.schema.json",
   "title": "Free Sound Effects catalog",
   "type": "object",
   "additionalProperties": false,
