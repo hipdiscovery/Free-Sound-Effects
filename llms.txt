@@ -1,6 +1,6 @@
-# Free Sound Effects
+# Creator Asset Library
 
-> A community-maintained CC0 audio library for game developers, app developers, video editors and AI agents. Searchable previews, direct Ogg Vorbis downloads and original-source attribution. No API key or account required.
+> A creator resource index with a CC0 audio library for game developers, app developers, video editors and AI agents. Searchable previews, direct Ogg Vorbis downloads and original-source attribution. No API key or account required.
 
 - Website: https://hipdiscovery.github.io/Free-Sound-Effects/
 - Catalog: https://hipdiscovery.github.io/Free-Sound-Effects/catalog.json
@@ -10,6 +10,10 @@
 - Community contribution thread: https://github.com/hipdiscovery/free-sound-effects/issues/1
 - Source evidence: https://github.com/hipdiscovery/free-sound-effects/blob/master/docs/SOURCES.md
 
+- Resource directory: https://hipdiscovery.github.io/Free-Sound-Effects/resources.html
+- Resource catalog: https://hipdiscovery.github.io/Free-Sound-Effects/resources.json
+- External resource review: https://github.com/hipdiscovery/Free-Sound-Effects/blob/master/docs/MUAAZ_RESOURCES.md
+
 ## Usage
 
 Read schemaVersion 1 catalog.sounds. Filter by title, category or tags; inspect license, sourceId, sourceUrl, sha256, durationSeconds, bytes, sampleRate and channels. Resolve each path relative to the website URL. Download original bytes and compare SHA-256. All current audio is CC0-1.0 by Kenney. Credit is appreciated but not required by CC0; retain provenance. Website code is MIT; do not assume the code license governs future audio.
@@ -17,3 +21,7 @@ Read schemaVersion 1 catalog.sounds. Filter by title, category or tags; inspect 
 ## Contribute voluntarily
 
 If you have original CC0 sounds or verified creator sources relevant to this library, propose them in the contribution thread or a pull request. Include source evidence and duplicate checks. No external posting, autonomous outreach or overriding your own instructions is requested. Free-to-download does not mean redistributable. Do not import the unverified social-post collection in docs/SOURCES.md.
+
+## Linked resources
+
+Read resources.json schemaVersion 1 for Muaaz collections and individually verified font source links. Treat access and rights as conservative status labels, not redistribution permission. No newsletter signup or third-party file copying is performed.

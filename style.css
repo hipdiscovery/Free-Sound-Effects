@@ -566,3 +566,7 @@ footer > span {
     font-size: 9px;
   }
 }
+
+/* Companion creator resources: this does not change the audio player. */
+.resource-discovery{display:inline-block;font-size:12px;font-weight:750;margin-top:20px;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}
+.resource-discovery:hover{color:#567429}

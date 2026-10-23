@@ -1,10 +1,10 @@
 {
-  "name": "free-sound-effects",
+  "name": "creator-asset-library",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs && node scripts/test-validator.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-validator.mjs && node scripts/validate-resources.mjs",
     "serve": "python -m http.server 8097 --bind 127.0.0.1"
   }
 }

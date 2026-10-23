@@ -1,6 +1,6 @@
-# Free Sound Effects agent guide
+# Creator Asset Library agent guide
 
-Public, buildless CC0 Ogg Vorbis catalog and preview site. Read `CONTRIBUTING.md`, `catalog.schema.json` and affected source first. `docs/SOURCES.md` owns provenance; `docs/VERIFICATION.md` is dated evidence, not current deployment proof.
+Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis catalog and preview site. Read `CONTRIBUTING.md`, `catalog.schema.json` and affected source first. `docs/SOURCES.md` owns provenance; `docs/VERIFICATION.md` is dated evidence, not current deployment proof.
 
 ## Working rules
 
@@ -8,6 +8,13 @@ Public, buildless CC0 Ogg Vorbis catalog and preview site. Read `CONTRIBUTING.md
 - Own research, implementation, checks, review and cleanup. Make routine reversible choices; concise final replies must not shorten the work. Git preserves history: no backup/checkpoint copies, vendor instruction mirrors or abandoned experiments.
 - Keep private owner/business details, credentials and local evidence out of this public repository. Public messages, product releases, purchases, sensitive permission expansion and destructive user-data changes retain separate authorization.
 - Preserve accessible responsive HTML/CSS/JS, relative GitHub Pages paths and the dependency-free static architecture. No backend, trackers, paid infrastructure, hidden network calls or background crawlers. Prefer existing free/local tools.
+
+## External resource directory
+
+- `resources.json` catalogs outbound links, not mirrored assets or a redistribution grant. `resources.html`, `resources.js` and `resources.css` render the independent directory with no third-party requests until the user opens a publisher link.
+- `docs/MUAAZ_RESOURCES.md` contains author posts, original landing pages, review date, email access terms and cautious license status. Add only verified sources. Do not claim every item in a pack was reviewed when ZIP delivery is gated.
+- `scripts/validate-resources.mjs` checks link shape, IDs, categories and conservative license labels. It is not a rights audit or a live URL checker. Preserve search, filtering, URL query state, no-results and failure UI at desktop and narrow widths.
+- Google Fonts commercial-use guidance does not extend to font sites with unverified terms. Do not copy, subscribe for, host or fetch third-party binaries without recorded rights. Keep the existing audio schema and all audio checks untouched.
 
 ## Catalog and rights
 

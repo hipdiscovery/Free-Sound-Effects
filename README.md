@@ -1,10 +1,16 @@
-# Free Sound Effects
+# Creator Asset Library
 
-**Open audio for your next game, app or video.** Search, preview and download 100 CC0 interface sound effects, with original creator attribution and a machine-readable catalog.
+**A source-checked directory of free creator resources, plus a fully hosted CC0 sound-effects library.** Search, preview and download 100 CC0 interface sound effects, with original creator attribution and a machine-readable catalog.
 
-**[Browse & preview the library](https://hipdiscovery.github.io/Free-Sound-Effects/)** · **[JSON catalog](catalog.json)** · **[Join the contribution thread](https://github.com/hipdiscovery/free-sound-effects/issues/1)**
+**[Explore creator resources](resources.html)** · **[Resource catalog](resources.json)** · **[Browse & preview the sound library](https://hipdiscovery.github.io/Free-Sound-Effects/)** · **[JSON catalog](catalog.json)** · **[Join the contribution thread](https://github.com/hipdiscovery/free-sound-effects/issues/1)**
 
-## What is included
+## Creator resources
+
+Five [Muaaz (@mws)](https://x.com/mws) collections are linked at their original sources: 297 external effects, 84 fonts, 120 title templates, 22 video animations and 234 thumbnail examples. The [searchable directory](resources.html) adds 30 individually observed font source links (23 commercial-use open-source Google Fonts, seven font-site listings needing license review). Full evidence, access requirements and caveats are in [the Muaaz resource review](docs/MUAAZ_RESOURCES.md), with a separate [resources.json](resources.json) machine catalog.
+
+**Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. Some author ZIP packs require email and newsletter signup; a free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
+
+## Verified, locally hosted sound effects
 
 100 unchanged Ogg Vorbis effects from [Kenney's Interface Sounds](https://kenney.nl/assets/interface-sounds): clicks, switches, confirmations, errors, navigation, glass, glitches and more. CC0-1.0 permits redistribution and commercial use; creator credit is appreciated. See [source checks and limitations](docs/SOURCES.md), [the original license](licenses/kenney-interface.txt) and [recorded review evidence](docs/kenney-interface-review.json).
 
@@ -27,7 +33,7 @@ Search terms: free sound effects, CC0 audio library, game audio, UI sounds, app 
 
 Share original recordings or verified CC0 creator sources in the [community thread](https://github.com/hipdiscovery/free-sound-effects/issues/1), submit a sound/request/rights issue, or open a pull request. Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Each sound needs original-source attribution, explicit redistribution evidence and duplicate checks. Maintainer review is required; public submissions are not automatically imported.
 
-The [Muaaz X post](https://x.com/mws/status/2112338141965144309) inspired this project. Its claimed 297-sound collection has **not** been imported: the reply's Notion collection and ZIP offer were reviewed, but original-source ownership and redistribution rights remain unverified. See [review notes and source links](docs/SOURCES.md).
+The [Muaaz sound-effects post](https://x.com/mws/status/2112338141965144309) inspired the sound section. Its claimed 297-sound collection has **not** been imported: the reply's Notion collection and ZIP offer were reviewed, but original-source ownership and redistribution rights remain unverified. See [review notes and source links](docs/SOURCES.md).
 
 ## Run locally and validate
 
@@ -35,14 +41,13 @@ Requires Node.js 20+ for validation and Python 3 for the optional local server. 
 
 ```sh
 npm test
-node scripts/test-validator.mjs
 npm run serve
 ```
 
-Open http://127.0.0.1:8097. Use an HTTP server rather than opening the HTML file directly. Validation verifies original file hashes, license evidence records, exact duplicate prevention, safe catalog paths, audio metadata and full audio-file coverage. Seven negative fixtures check failure handling. Perceptual duplicates and rights ownership need human review.
+Open http://127.0.0.1:8097. Use an HTTP server rather than opening the HTML file directly. Validation also checks the external resource catalog's IDs, links and license labels. Audio validation verifies original file hashes, license evidence records, exact duplicate prevention, safe catalog paths, audio metadata and full audio-file coverage. Seven negative fixtures check failure handling. Perceptual duplicates and rights ownership need human review.
 
 ## Hosting and licenses
 
 GitHub Pages serves `master` / repository root using its built-in branch publishing. No custom GitHub Actions workflow, backend, cron or paid infrastructure is required. GitHub's hosting and bandwidth limits still apply; this is not an unlimited CDN. Do not add hotlink-dependent third-party audio.
 
-Website code and project documentation: [MIT](LICENSE). Audio: per-source **CC0-1.0**. Catalog metadata: **CC0-1.0**. Original license notices remain in `licenses/`. No endorsement by source creators is implied. Report provenance or licensing concerns through the rights issue template.
+Outbound resources retain their original creators' terms. Website code and project documentation: [MIT](LICENSE). Audio: per-source **CC0-1.0**. Catalog metadata: **CC0-1.0**. Original license notices remain in `licenses/`. No endorsement by source creators is implied. Report provenance or licensing concerns through the rights issue template.

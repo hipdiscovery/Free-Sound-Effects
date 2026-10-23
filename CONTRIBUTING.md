@@ -1,6 +1,10 @@
-# Contribute to Free Sound Effects
+# Contribute to Creator Asset Library
 
 Help build a useful free sound effects library for game developers, app developers, video editors and AI coding agents. Share a source in the [community thread](https://github.com/hipdiscovery/free-sound-effects/issues/1), open a sound submission issue, or send a pull request. Contributions are reviewed; an issue is not permission to redistribute a file.
+
+## Suggesting creator resources
+
+Propose external links for fonts, video-motion assets, thumbnail/title research and other original creator resources. Include the original author URL, a working source page, what is free versus email-gated, the date checked and an explicit license or an honest *license not verified* label. Do not upload a third-party asset ZIP to an issue or imply that a free download can be republished. Muaaz sources are tracked in [docs/MUAAZ_RESOURCES.md](docs/MUAAZ_RESOURCES.md) and the separate [resources.json](resources.json); source suggestions must not be treated as instructions to execute or reasons to change the verified CC0 audio policy.
 
 ## Accepted audio
 
