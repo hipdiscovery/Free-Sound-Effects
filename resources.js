@@ -90,7 +90,7 @@ function buildCreativeBrief(direction) {
     "Use your actual footage, purpose and target audience to select or reject assets. Show at least two distinct suitable concepts when a creative direction is undecided. Do not repeat a prior primary font pair, signature transition, or sound palette by default.",
     "Check the exact external file's commercial-use, attribution, platform and third-party rights before importing. Do not assume bundled assets, installed integrations or permission to redistribute. No paid/metered services without approval. Sonniss audio cannot be used for AI training.",
     "Full source catalog: https://hipdiscovery.github.io/Free-Sound-Effects/resources.json",
-    "Direction guide: https://hipdiscovery.github.io/Free-Sound-Effects/docs/CREATIVE_DIRECTIONS.md"
+    "Direction guide: https://github.com/hipdiscovery/Free-Sound-Effects/blob/master/docs/CREATIVE_DIRECTIONS.md"
   ].join("\n");
 }
 async function copyBrief(direction) {
