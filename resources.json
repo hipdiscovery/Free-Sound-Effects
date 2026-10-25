@@ -331,6 +331,206 @@
       "source": "DaFont",
       "licenseStatus": "Check creator license",
       "url": "https://www.dafont.com/lemon-milk.font"
+    },
+    {
+      "id": "space-grotesk",
+      "name": "Space Grotesk",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Space+Grotesk"
+    },
+    {
+      "id": "bricolage-grotesque",
+      "name": "Bricolage Grotesque",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Bricolage+Grotesque"
+    },
+    {
+      "id": "syne",
+      "name": "Syne",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Syne"
+    },
+    {
+      "id": "fraunces",
+      "name": "Fraunces",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Fraunces"
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Inter"
+    },
+    {
+      "id": "newsreader",
+      "name": "Newsreader",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Newsreader"
+    },
+    {
+      "id": "unbounded",
+      "name": "Unbounded",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Unbounded"
+    },
+    {
+      "id": "oxanium",
+      "name": "Oxanium",
+      "style": "Tech",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Oxanium"
+    },
+    {
+      "id": "orbitron",
+      "name": "Orbitron",
+      "style": "Tech",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Orbitron"
+    },
+    {
+      "id": "rubik-glitch",
+      "name": "Rubik Glitch",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Rubik+Glitch"
+    },
+    {
+      "id": "rubik-pixels",
+      "name": "Rubik Pixels",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Rubik+Pixels"
+    },
+    {
+      "id": "jersey-15",
+      "name": "Jersey 15",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Jersey+15"
+    },
+    {
+      "id": "pixelify-sans",
+      "name": "Pixelify Sans",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Pixelify+Sans"
+    },
+    {
+      "id": "press-start-2p",
+      "name": "Press Start 2P",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Press+Start+2P"
+    },
+    {
+      "id": "vt323",
+      "name": "VT323",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/VT323"
+    },
+    {
+      "id": "permanent-marker",
+      "name": "Permanent Marker",
+      "style": "Handwritten",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Permanent+Marker"
+    },
+    {
+      "id": "caveat",
+      "name": "Caveat",
+      "style": "Handwritten",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Caveat"
+    },
+    {
+      "id": "kalam",
+      "name": "Kalam",
+      "style": "Handwritten",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Kalam"
+    },
+    {
+      "id": "ibm-plex-mono",
+      "name": "IBM Plex Mono",
+      "style": "Tech",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/IBM+Plex+Mono"
+    },
+    {
+      "id": "black-ops-one",
+      "name": "Black Ops One",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Black+Ops+One"
+    },
+    {
+      "id": "cinzel",
+      "name": "Cinzel",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Cinzel"
+    },
+    {
+      "id": "special-elite",
+      "name": "Special Elite",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Special+Elite"
+    },
+    {
+      "id": "uncial-antiqua",
+      "name": "Uncial Antiqua",
+      "style": "Retro",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Uncial+Antiqua"
+    },
+    {
+      "id": "dm-sans",
+      "name": "DM Sans",
+      "style": "Clean",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/DM+Sans"
+    },
+    {
+      "id": "righteous",
+      "name": "Righteous",
+      "style": "Bold",
+      "source": "Google Fonts",
+      "licenseStatus": "Open-source font",
+      "url": "https://fonts.google.com/specimen/Righteous"
     }
   ],
   "assets": [
@@ -359,7 +559,13 @@
         "shorts"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Put the sound on an audio track and align its peak with the visual cut.",
+      "styleTags": [
+        "cinematic",
+        "action"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-game-sounds",
@@ -385,7 +591,13 @@
         "notification"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import individual audio files under moments worth emphasizing.",
+      "styleTags": [
+        "game",
+        "arcade"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pixabay-transition-sounds",
@@ -411,7 +623,13 @@
         "stinger"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Download a specific licensed file; import, trim and fade around transitions.",
+      "styleTags": [
+        "cinematic",
+        "glitch"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-impact-sounds",
@@ -438,7 +656,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Convert OGG to MP3/WAV locally if your CapCut version cannot import the original.",
+      "styleTags": [
+        "action",
+        "game"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-stock-music",
@@ -464,7 +688,13 @@
         "soundtrack"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import under your speech/game audio and duck its volume; keep the license link.",
+      "styleTags": [
+        "calm",
+        "cinematic"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-digital-audio",
@@ -491,7 +721,13 @@
         "cc0"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import the extracted effect (convert OGG if needed) and use sparingly for HUD edits.",
+      "styleTags": [
+        "retro",
+        "arcade"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pixabay-sound-effects",
@@ -517,7 +753,13 @@
         "atmosphere"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use the individual licensed recording in your finished video, not as a standalone download.",
+      "styleTags": [
+        "natural",
+        "experimental"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "freesound-cc0-only",
@@ -543,7 +785,13 @@
         "sound"
       ],
       "priority": 3,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Filter licensing to Creative Commons 0 before selecting and keep the individual sound page as evidence.",
+      "styleTags": [
+        "natural",
+        "experimental"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-overlay-footage",
@@ -570,7 +818,13 @@
         "capcut"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Add above your clip; use blending or chroma-key tools only where they fit the footage.",
+      "styleTags": [
+        "cinematic",
+        "dreamy"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-video-transitions",
@@ -596,7 +850,13 @@
         "motion"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import as a clip or overlay around a cut; pick an actual Free License clip.",
+      "styleTags": [
+        "cinematic",
+        "action"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-light-leaks",
@@ -622,7 +882,13 @@
         "effect"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Add above a clip, trim to a short burst and adjust blending/opacity.",
+      "styleTags": [
+        "vintage",
+        "dreamy"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-green-screen",
@@ -647,7 +913,13 @@
         "transition"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Place footage above the main edit; remove its green background with chroma key.",
+      "styleTags": [
+        "playful",
+        "action"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "mixkit-vertical-footage",
@@ -673,7 +945,13 @@
         "b-roll"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Choose 9:16 material; insert between original footage segments.",
+      "styleTags": [
+        "real",
+        "editorial"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pexels-vertical-video",
@@ -699,7 +977,13 @@
         "shorts"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Download footage at the desired resolution and use in the media track.",
+      "styleTags": [
+        "real",
+        "calm"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pixabay-green-screen",
@@ -725,7 +1009,13 @@
         "reaction"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Select rights-cleared footage, put above the base track and key out green.",
+      "styleTags": [
+        "playful",
+        "experimental"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pexels-stock-video",
@@ -751,7 +1041,13 @@
         "cutaway"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Choose authentic B-roll that supports the narrative, not misleading footage.",
+      "styleTags": [
+        "real",
+        "cinematic"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "coverr-stock-video",
@@ -777,7 +1073,13 @@
         "city"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use free clip downloads in completed edits; do not reuse as a stock library.",
+      "styleTags": [
+        "cinematic",
+        "real"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-particle-pack",
@@ -804,7 +1106,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import transparent sprites as overlays; animate placement or opacity with keyframes.",
+      "styleTags": [
+        "scifi",
+        "action"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-smoke-particles",
@@ -830,7 +1138,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Layer extracted PNG sprites and animate movement/opacity instead of relying on paid templates.",
+      "styleTags": [
+        "fantasy",
+        "cinematic"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pexels-photos",
@@ -856,7 +1170,13 @@
         "image"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Crop and layer in CapCut or Photopea; avoid implying an identifiable person's endorsement.",
+      "styleTags": [
+        "editorial",
+        "real"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "unsplash-photos",
@@ -882,7 +1202,13 @@
         "aesthetic"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use as a photograph background with your own type and composition.",
+      "styleTags": [
+        "real",
+        "minimal"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "polyhaven-textures",
@@ -909,7 +1235,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use the base texture image behind titles, cropped subjects or frame edges.",
+      "styleTags": [
+        "cinematic",
+        "fantasy"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "ambientcg-materials",
@@ -936,7 +1268,13 @@
         "cc0"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Download base-color (albedo) image and import it as a static texture layer.",
+      "styleTags": [
+        "vintage",
+        "real"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "pixabay-images",
@@ -962,7 +1300,13 @@
         "overlay"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import downloaded JPG or transparent PNG; check people, logos and source rights.",
+      "styleTags": [
+        "playful",
+        "real"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-input-prompts",
@@ -989,7 +1333,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Import PNG button glyphs as overlays; use trademarked platform names only contextually.",
+      "styleTags": [
+        "game",
+        "clean"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-emote-icons",
@@ -1016,7 +1366,13 @@
         "cc0"
       ],
       "priority": 1,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use single icons as overlays at short emphasis points.",
+      "styleTags": [
+        "comic",
+        "playful"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-crosshair-art",
@@ -1043,7 +1399,13 @@
         "cc0"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Place over the relevant gameplay event; use only non-branded artwork.",
+      "styleTags": [
+        "action",
+        "game"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-pattern-pack",
@@ -1069,7 +1431,13 @@
         "cc0"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use as subtle backing layers rather than visually cluttering the edit.",
+      "styleTags": [
+        "geometric",
+        "playful"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "kenney-ui-pack",
@@ -1097,7 +1465,13 @@
         "cc0"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Place PNG UI elements as overlays instead of importing game engine source files.",
+      "styleTags": [
+        "clean",
+        "game"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "phosphor-icons",
@@ -1123,7 +1497,13 @@
         "ui"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Export icons with transparency to PNG before CapCut import.",
+      "styleTags": [
+        "clean",
+        "playful"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "lucide-icons",
@@ -1149,7 +1529,13 @@
         "minimal"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Export icon SVG to transparent PNG through Photopea or another local editor.",
+      "styleTags": [
+        "clean",
+        "minimal"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "tabler-icons",
@@ -1175,7 +1561,13 @@
         "ui"
       ],
       "priority": 3,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Use the free MIT SVG source; convert to PNG for reliable CapCut overlays.",
+      "styleTags": [
+        "minimal",
+        "editorial"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "undraw-illustrations",
@@ -1201,7 +1593,13 @@
         "graphic"
       ],
       "priority": 3,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Download a legal PNG and layer with captions; don't repackage the illustration library.",
+      "styleTags": [
+        "editorial",
+        "playful"
+      ],
+      "sourceType": "library"
     },
     {
       "id": "photopea-editor",
@@ -1227,7 +1625,1409 @@
         "editing"
       ],
       "priority": 2,
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-25",
+      "workflow": "Finish subject cutouts in Photopea, then export PNG with transparency for CapCut.",
+      "styleTags": [
+        "creative",
+        "editorial"
+      ],
+      "sourceType": "editor"
+    },
+    {
+      "id": "sonniss-gdc-2026",
+      "title": "2026 professional sound-design bundle",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "Audio / WAV / MP3",
+      "description": "Studio-grade action, creature, machine and environment recordings for original sound design.",
+      "workflow": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "capcut": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "link": "https://gdc.sonniss.com/",
+      "publisher": "Sonniss",
+      "license": "Sonniss commercial synchronized media license",
+      "licenseUrl": "https://sonniss.com/gdc-bundle-license/",
+      "rights": "media-only",
+      "attribution": "none",
+      "access": "Free large ZIPs; no subscription",
+      "caveat": "Huge multi-part download; synchronized media use allowed, but no asset repacks and expressly no AI/ML training.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "action",
+        "mechanical"
+      ],
+      "tags": [
+        "foley",
+        "creature",
+        "cinematic",
+        "game",
+        "sounds"
+      ],
+      "priority": 1,
+      "sourceType": "archive"
+    },
+    {
+      "id": "sonniss-gdc-archive",
+      "title": "Sonniss game-audio archives",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "Audio / WAV / MP3",
+      "description": "Multiple years of professional audio with different creators, subjects and recording styles.",
+      "workflow": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "capcut": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "link": "https://sonniss.com/gameaudiogdc/",
+      "publisher": "Sonniss",
+      "license": "Sonniss commercial synchronized media license",
+      "licenseUrl": "https://sonniss.com/gdc-bundle-license/",
+      "rights": "media-only",
+      "attribution": "none",
+      "access": "Free large ZIPs; no subscription",
+      "caveat": "Large multi-GB packs; never automatically fetch everything; no standalone redistribution or AI training.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "fantasy",
+        "natural"
+      ],
+      "tags": [
+        "sound",
+        "effects",
+        "foley",
+        "textures",
+        "archive"
+      ],
+      "priority": 2,
+      "sourceType": "archive"
+    },
+    {
+      "id": "scott-buckley-scores",
+      "title": "Orchestral and cinematic CC BY scores",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "Audio / WAV / MP3",
+      "description": "Expressive atmospheric and orchestral music for documentaries, trailers and slower narratives.",
+      "workflow": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "capcut": "Choose a suitable recording and sync it to the actual moment, keeping all source and music rights.",
+      "link": "https://www.scottbuckley.com.au/library/",
+      "publisher": "Scott Buckley",
+      "license": "Creative Commons Attribution",
+      "licenseUrl": "https://www.scottbuckley.com.au/library/using-this-music/",
+      "rights": "cc-by",
+      "attribution": "credit",
+      "access": "Free with creator credit",
+      "caveat": "CC BY 4.0 credit required in each platform description. Creator may issue Content ID claim if credit is missing; remixes may be excluded.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "emotional",
+        "calm"
+      ],
+      "tags": [
+        "orchestra",
+        "ambience",
+        "music",
+        "score"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "openverse-search",
+      "title": "Licensed image and sound discovery",
+      "category": "Images",
+      "kind": "Images",
+      "format": "JPG / PNG / media varies",
+      "description": "Discover unusual images and sounds from galleries, archives and other open repositories.",
+      "workflow": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "capcut": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "link": "https://openverse.org/",
+      "publisher": "Openverse",
+      "license": "License varies by individual file",
+      "licenseUrl": "https://openverse.org/en/about",
+      "rights": "check-item",
+      "attribution": "per-item",
+      "access": "Free to browse; check exact file",
+      "caveat": "Openverse warns license data can be inaccurate. Verify each original and exclude NC/ND where incompatible with commercial edits.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "documentary",
+        "experimental",
+        "vintage"
+      ],
+      "tags": [
+        "cc0",
+        "creative",
+        "commons",
+        "search",
+        "photography",
+        "audio"
+      ],
+      "priority": 2,
+      "sourceType": "licensed-search"
+    },
+    {
+      "id": "smithsonian-open",
+      "title": "Smithsonian public-domain collection",
+      "category": "Images",
+      "kind": "Images",
+      "format": "JPG / PNG / media varies",
+      "description": "Historical devices, curiosities, posters and scientific images for non-generic documentary collage.",
+      "workflow": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "capcut": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "link": "https://www.si.edu/openaccess",
+      "publisher": "Smithsonian",
+      "license": "CC0 only on marked works",
+      "licenseUrl": "https://www.si.edu/openaccess/faq",
+      "rights": "cc0-filter",
+      "attribution": "none",
+      "access": "Free marked CC0 works",
+      "caveat": "Only items explicitly marked CC0. Publicity, trademark, cultural context and museum endorsement remain separate.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "archive",
+        "documentary",
+        "science"
+      ],
+      "tags": [
+        "historical",
+        "object",
+        "museum",
+        "specimen",
+        "collage"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "met-open-art",
+      "title": "The Met open-access art",
+      "category": "Images",
+      "kind": "Images",
+      "format": "JPG / PNG / media varies",
+      "description": "Paintings, manuscripts and decorative artworks for dramatic textures, editorial design and art-history context.",
+      "workflow": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "capcut": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "link": "https://www.metmuseum.org/hubs/open-access",
+      "publisher": "The Met",
+      "license": "CC0 only on marked works",
+      "licenseUrl": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "rights": "cc0-filter",
+      "attribution": "none",
+      "access": "Free marked CC0 works",
+      "caveat": "Only items marked OA/CC0 are free to reuse; trademarks and implied museum endorsement are not granted.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "vintage",
+        "classical",
+        "editorial"
+      ],
+      "tags": [
+        "paintings",
+        "engraving",
+        "manuscript",
+        "museum"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "nga-open-art",
+      "title": "National Gallery public-domain artworks",
+      "category": "Images",
+      "kind": "Images",
+      "format": "JPG / PNG / media varies",
+      "description": "High-resolution open artwork images for historical compositions and editorial treatments.",
+      "workflow": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "capcut": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "link": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "publisher": "National Gallery of Art",
+      "license": "CC0 only on marked works",
+      "licenseUrl": "https://www.nga.gov/terms-and-notices",
+      "rights": "cc0-filter",
+      "attribution": "none",
+      "access": "Free marked CC0 works",
+      "caveat": "Check that the exact object image is part of the public-domain CC0 release.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "classical",
+        "vintage",
+        "documentary"
+      ],
+      "tags": [
+        "painting",
+        "archive",
+        "artwork",
+        "illustration"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "artic-public-art",
+      "title": "Art Institute public-domain images",
+      "category": "Images",
+      "kind": "Images",
+      "format": "JPG / PNG / media varies",
+      "description": "Museum paintings and public-domain poster imagery for original collage storytelling.",
+      "workflow": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "capcut": "Use selected imagery as a contextual cutaway, background or original edited collage.",
+      "link": "https://www.artic.edu/collection",
+      "publisher": "Art Institute of Chicago",
+      "license": "CC0 only on marked works",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "rights": "cc0-filter",
+      "attribution": "none",
+      "access": "Free marked CC0 works",
+      "caveat": "Use only is_public_domain=true items, verify image status; artwork descriptions can have a different CC BY license.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "artistic",
+        "editorial",
+        "vintage"
+      ],
+      "tags": [
+        "art",
+        "history",
+        "archive",
+        "artwork",
+        "prints"
+      ],
+      "priority": 1,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-pixel-ui",
+      "title": "Pixel-art UI pack",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Retro pixel panels and buttons for deliberately low-resolution arcade graphics.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/pixel-ui-pack",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Keep pixel edges sharp; assets are not copies of any branded game interface.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "pixel",
+        "retro",
+        "arcade"
+      ],
+      "tags": [
+        "8bit",
+        "interface",
+        "game",
+        "menu",
+        "rpg"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-scifi-ui",
+      "title": "Sci-fi interface panels",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Sci-fi panels, indicators and meters for futuristic game/video overlays.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/ui-pack-sci-fi",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "CC0 art should not be presented as a real product or game HUD.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "scifi",
+        "neon",
+        "tech"
+      ],
+      "tags": [
+        "hud",
+        "futuristic",
+        "spaceship",
+        "game",
+        "ui"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-adventure-ui",
+      "title": "Adventure interface pack",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Adventure-themed panels and frames for quest reveals and game storytelling.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/ui-pack-adventure",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Do not imply these assets are from the gameplay you are showing.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "fantasy",
+        "adventure",
+        "illustrated"
+      ],
+      "tags": [
+        "rpg",
+        "adventure",
+        "scoreboard",
+        "interface"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-fantasy-borders",
+      "title": "Fantasy ornamental borders",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Decorative fantasy scrolls, borders and frames for lore or storybook compositions.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/fantasy-ui-borders",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Use sparingly at small sizes; detailed frames can reduce legibility.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "fantasy",
+        "medieval",
+        "vintage"
+      ],
+      "tags": [
+        "ornamental",
+        "frame",
+        "rpg",
+        "border"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-scribble",
+      "title": "Sketchbook-style graphic sprites",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Handmade-looking character marks and rough doodles for expressive edits.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/scribble-platformer",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "CC0 does not mean the creator's branding or name is yours to impersonate.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "doodle",
+        "playful",
+        "handmade"
+      ],
+      "tags": [
+        "scribble",
+        "illustration",
+        "character",
+        "pen"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "kenney-cursors",
+      "title": "Cursor and pointer library",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Distinct pointer shapes for tracked tutorials and UI callouts.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://kenney.nl/assets/cursor-pack",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Third-party screenshot or screen content still requires appropriate rights.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "clean",
+        "ui",
+        "tutorial"
+      ],
+      "tags": [
+        "cursor",
+        "pointer",
+        "click",
+        "mouse",
+        "graphic"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "svg-repo-styles",
+      "title": "SVG Repo multi-style vector search",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Different icon sets from hand-drawn to isometric, duotone and pixel art.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://www.svgrepo.com/",
+      "publisher": "SVG Repo",
+      "license": "License varies by individual file",
+      "licenseUrl": "https://www.svgrepo.com/page/licensing",
+      "rights": "check-item",
+      "attribution": "per-item",
+      "access": "Free to browse; check exact file",
+      "caveat": "Each listed icon can have different rights: CC BY, CC BY-SA, logos or other restrictions. Check exact file.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "doodle",
+        "pixel",
+        "geometric",
+        "isometric"
+      ],
+      "tags": [
+        "vector",
+        "illustration",
+        "icon",
+        "glyph",
+        "stickers"
+      ],
+      "priority": 1,
+      "sourceType": "licensed-search"
+    },
+    {
+      "id": "game-icons-ccby",
+      "title": "Game and fantasy symbols",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Detailed combat, magic and status-effect silhouettes for game-themed edits.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://game-icons.net/",
+      "publisher": "Game-icons.net",
+      "license": "Creative Commons Attribution",
+      "licenseUrl": "https://game-icons.net/about.html",
+      "rights": "cc-by",
+      "attribution": "credit",
+      "access": "Free with creator credit",
+      "caveat": "Many assets require CC BY author attribution and license link; some are public domain.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "fantasy",
+        "tactical",
+        "game"
+      ],
+      "tags": [
+        "rpg",
+        "ability",
+        "spell",
+        "combat",
+        "icons"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "heroicons-mit",
+      "title": "Heroicons solid and outline",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Balanced interface icons with restrained filled or outline weights.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://heroicons.com/",
+      "publisher": "Heroicons",
+      "license": "Open source (retain notices)",
+      "licenseUrl": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE",
+      "rights": "open-notice",
+      "attribution": "notice",
+      "access": "Free downloads or original exports",
+      "caveat": "MIT license notices apply when distributing the original icon source.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "clean",
+        "editorial",
+        "minimal"
+      ],
+      "tags": [
+        "ui",
+        "outline",
+        "icon",
+        "solid"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "iconoir-mit",
+      "title": "Iconoir delicate outline icons",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Fine geometric line icons for minimal technical and editorial graphics.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://iconoir.com/",
+      "publisher": "Iconoir",
+      "license": "Open source (retain notices)",
+      "licenseUrl": "https://iconoir.com/",
+      "rights": "open-notice",
+      "attribution": "notice",
+      "access": "Free downloads or original exports",
+      "caveat": "MIT: preserve copyright and license notices when republishing source artwork.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "clean",
+        "minimal",
+        "tech"
+      ],
+      "tags": [
+        "line",
+        "lightweight",
+        "icons"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "pixelarticons-mit",
+      "title": "Pixelarticons 8-bit symbols",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Distinct pixel art glyphs for retro HUDs and 8-bit tutorials.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://pixelarticons.com/",
+      "publisher": "Pixelarticons",
+      "license": "Open source (retain notices)",
+      "licenseUrl": "https://pixelarticons.com/docs/",
+      "rights": "open-notice",
+      "attribution": "notice",
+      "access": "Free downloads or original exports",
+      "caveat": "Only the free MIT set is included; premium icons need a separate paid entitlement.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "pixel",
+        "retro",
+        "arcade"
+      ],
+      "tags": [
+        "pixel",
+        "icon",
+        "8bit",
+        "glyph"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "creatica-original-backgrounds",
+      "title": "Creatica seeded background generator",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Generate distinct gradients, Bauhaus compositions and abstract patterns with custom colors and seeds.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://creatica.app/",
+      "publisher": "Creatica",
+      "license": "Free commercial-use original exports",
+      "licenseUrl": "https://creatica.app/terms-and-conditions",
+      "rights": "free-generated",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Free browser and local MIT CLI exist, but remote hosted API/MCP is a separate potentially paid service. Do not automatically enable it.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "bauhaus",
+        "abstract",
+        "geometric",
+        "neon"
+      ],
+      "tags": [
+        "agent",
+        "background",
+        "generator",
+        "waves",
+        "shapes",
+        "gradient"
+      ],
+      "priority": 2,
+      "sourceType": "generator"
+    },
+    {
+      "id": "svgeneration-patterns",
+      "title": "SVGeneration pattern editor",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Make repeatable patterned backgrounds with custom palettes and scales.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://svgeneration.com/",
+      "publisher": "SVGeneration",
+      "license": "Free commercial-use original exports",
+      "licenseUrl": "https://svgeneration.com/",
+      "rights": "free-generated",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Free MIT-labeled pattern editor, but third-party embedded images if any need separate clearance.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "geometric",
+        "bauhaus",
+        "minimal"
+      ],
+      "tags": [
+        "seamless",
+        "patterns",
+        "background",
+        "svg"
+      ],
+      "priority": 2,
+      "sourceType": "generator"
+    },
+    {
+      "id": "open-doodles-free",
+      "title": "Open Doodles human illustrations",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Playful illustrated characters and poses for human explanations rather than stock photos.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://www.opendoodles.com/",
+      "publisher": "Open Doodles",
+      "license": "Free commercial-use visual library",
+      "licenseUrl": "https://www.opendoodles.com/",
+      "rights": "video-commercial",
+      "attribution": "none",
+      "access": "Free downloads or original exports",
+      "caveat": "Creator permits personal/commercial use without credit; avoid pretending you created the source artwork.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "doodle",
+        "handmade",
+        "playful"
+      ],
+      "tags": [
+        "handdrawn",
+        "character",
+        "cartoon",
+        "illustration"
+      ],
+      "priority": 1,
+      "sourceType": "library"
+    },
+    {
+      "id": "fontshare-free",
+      "title": "Fontshare alternative display fonts",
+      "category": "Fonts",
+      "kind": "Fonts",
+      "format": "OTF / TTF / webfonts",
+      "description": "High-quality commercial-use families beyond the same stock YouTube heading fonts.",
+      "workflow": "Choose an appropriate new display/type pairing; use the font in finished work, not as redistributed software.",
+      "capcut": "Choose an appropriate new display/type pairing; use the font in finished work, not as redistributed software.",
+      "link": "https://www.fontshare.com/",
+      "publisher": "Fontshare",
+      "license": "Free commercial-use font catalog",
+      "licenseUrl": "https://www.fontshare.com/about",
+      "rights": "font-commercial",
+      "attribution": "none",
+      "access": "Free commercial fonts",
+      "caveat": "Publisher says commercial use is free; font software embedding and redistribution depend on each family's EULA.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "editorial",
+        "experimental",
+        "clean"
+      ],
+      "tags": [
+        "typography",
+        "professional",
+        "font",
+        "display"
+      ],
+      "priority": 2,
+      "sourceType": "library"
+    },
+    {
+      "id": "lospec-colors",
+      "title": "Lospec retro color palettes",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Choose authentic limited palettes and export color swatches for retro art direction.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://lospec.com/palette-list/",
+      "publisher": "Lospec",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://lospec.com/palette-list/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Colors may inform designs; visible sample art and user submissions are not automatically licensed.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "pixel",
+        "retro",
+        "arcade"
+      ],
+      "tags": [
+        "palette",
+        "gameboy",
+        "colors",
+        "limited-color"
+      ],
+      "priority": 2,
+      "sourceType": "reference"
+    },
+    {
+      "id": "piskel-pixel",
+      "title": "Piskel animated pixel-art editor",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Draw original frame-by-frame pixel sprites and export GIF or PNG sheets.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://www.piskelapp.com/",
+      "publisher": "Piskel",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://www.piskelapp.com/terms/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Web editor is free and has ads. Its output is yours only to the extent you own included source artwork.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "pixel",
+        "handmade",
+        "retro"
+      ],
+      "tags": [
+        "draw",
+        "sprite",
+        "animation",
+        "gif",
+        "editor"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "krita-painter",
+      "title": "Krita original digital paintings",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Create unique brushwork and illustrated graphics instead of repetitive ready-made stickers.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://krita.org/en/",
+      "publisher": "Krita",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://krita.org/en/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Free GPL editor; externally downloaded brush or reference packs may have separate licenses.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "handmade",
+        "artistic",
+        "doodle"
+      ],
+      "tags": [
+        "illustrate",
+        "paint",
+        "custom",
+        "drawing",
+        "masks"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "inkscape-vector",
+      "title": "Inkscape custom vectors",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Draw original vectors, geometric shapes, arrows and export polished graphics.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://inkscape.org/",
+      "publisher": "Inkscape",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://inkscape.org/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Free open-source app; third-party fonts and icon imports retain their own terms.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "geometric",
+        "editorial",
+        "minimal"
+      ],
+      "tags": [
+        "vector",
+        "svg",
+        "title",
+        "arrows",
+        "custom"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "blender-3d",
+      "title": "Blender original 3D graphics",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Make original 3D transitions, title scenes, parallax and object lighting.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://www.blender.org/",
+      "publisher": "Blender",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://www.blender.org/about/license/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Free GPL software and user-owned renders; external models/textures remain subject to their own licenses; uses local compute.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "scifi",
+        "experimental"
+      ],
+      "tags": [
+        "3d",
+        "animation",
+        "camera",
+        "parallax",
+        "renders"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "audacity-sound",
+      "title": "Audacity layered SFX editor",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Pitch, layer and time licensed audio into distinct finished sound effects.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://www.audacityteam.org/",
+      "publisher": "Audacity",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://www.audacityteam.org/audacity-4/",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Editing an unlicensed sample does not make it copyright-free. Free GPL desktop software.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "ambient",
+        "experimental"
+      ],
+      "tags": [
+        "audio",
+        "edit",
+        "pitch",
+        "foley",
+        "sound-design"
+      ],
+      "priority": 1,
+      "sourceType": "editor"
+    },
+    {
+      "id": "openshot-video",
+      "title": "OpenShot custom motion editor",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Render custom keyframe motion, masks, composited scenes and transitions.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://www.openshot.org/",
+      "publisher": "OpenShot",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://www.openshot.org/files/user-guide/introduction.html",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Free GPL editor; compatible exports and imported media retain their license requirements.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "cinematic",
+        "clean",
+        "experimental"
+      ],
+      "tags": [
+        "keyframe",
+        "animation",
+        "mask",
+        "transition"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "upscayl-desktop",
+      "title": "Upscayl local image enhancement",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local editor or browser tool",
+      "description": "Locally enhance small photos and graphics before using them in a project.",
+      "workflow": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "capcut": "Use the tool to create or refine an original asset, subject to source and installation permissions.",
+      "link": "https://upscayl.org/download",
+      "publisher": "Upscayl Desktop",
+      "license": "Free creative software or reference tool",
+      "licenseUrl": "https://upscayl.org/download",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free tool; may need local install",
+      "caveat": "Desktop is free and local. Separate cloud products may be paid. Upscaling is not an intellectual-property license.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "artistic",
+        "editorial",
+        "photographic"
+      ],
+      "tags": [
+        "upscale",
+        "local",
+        "resolution",
+        "image"
+      ],
+      "priority": 2,
+      "sourceType": "editor"
+    },
+    {
+      "id": "opengameart-cc0",
+      "title": "OpenGameArt CC0-focused finds",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG / asset pack",
+      "description": "Independent pixel art, unusual game sprites and occasional open game typography.",
+      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
+      "link": "https://opengameart.org/content/essential-cc0-assets",
+      "publisher": "OpenGameArt",
+      "license": "License varies by individual file",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "check-item",
+      "attribution": "per-item",
+      "access": "Free to browse; check exact file",
+      "caveat": "User collection is not a legal verification step; inspect each original uploader's exact license.",
+      "checkedOn": "2026-10-25",
+      "styleTags": [
+        "pixel",
+        "game",
+        "retro"
+      ],
+      "tags": [
+        "cc0",
+        "indie",
+        "sprite",
+        "illustration"
+      ],
+      "priority": 2,
+      "sourceType": "licensed-search"
     }
-  ]
+  ],
+  "directions": [
+    {
+      "id": "minimal-editorial",
+      "name": "Minimal editorial",
+      "tone": "Measured typography and real context",
+      "useCase": "Explainer or readable guide",
+      "assetIds": [
+        "pexels-photos",
+        "unsplash-photos",
+        "heroicons-mit",
+        "creatica-original-backgrounds"
+      ],
+      "fontIds": [
+        "inter",
+        "newsreader",
+        "space-grotesk"
+      ],
+      "palette": [
+        "#F5F3EB",
+        "#16232D",
+        "#6D7E80"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "pixel-arcade",
+      "name": "Pixel arcade",
+      "tone": "Sharp 8-bit HUD and playful cues",
+      "useCase": "Gaming, chat challenges or retro mood",
+      "assetIds": [
+        "kenney-pixel-ui",
+        "pixelarticons-mit",
+        "kenney-digital-audio",
+        "kenney-impact-sounds",
+        "lospec-colors"
+      ],
+      "fontIds": [
+        "press-start-2p",
+        "pixelify-sans",
+        "vt323"
+      ],
+      "palette": [
+        "#111827",
+        "#69FFB1",
+        "#F5CB48"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "sci-fi-hud",
+      "name": "Sci-fi HUD",
+      "tone": "Futuristic interfaces and restrained glow",
+      "useCase": "Tech and gaming tutorials",
+      "assetIds": [
+        "kenney-scifi-ui",
+        "kenney-particle-pack",
+        "iconoir-mit",
+        "sonniss-gdc-2026"
+      ],
+      "fontIds": [
+        "orbitron",
+        "oxanium",
+        "space-grotesk"
+      ],
+      "palette": [
+        "#09141F",
+        "#52E2E5",
+        "#E6F7FF"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "handmade-notes",
+      "name": "Handmade notes",
+      "tone": "Sketchbook pen and imperfect marks",
+      "useCase": "Commentary or personal storytelling",
+      "assetIds": [
+        "open-doodles-free",
+        "kenney-scribble",
+        "krita-painter",
+        "kenney-emote-icons"
+      ],
+      "fontIds": [
+        "permanent-marker",
+        "caveat",
+        "kalam"
+      ],
+      "palette": [
+        "#FAF0DE",
+        "#22252D",
+        "#D77852"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "cinematic-documentary",
+      "name": "Cinematic documentary",
+      "tone": "Natural footage, textured score and intentional pacing",
+      "useCase": "Stories and emotional reveals",
+      "assetIds": [
+        "pexels-stock-video",
+        "met-open-art",
+        "scott-buckley-scores",
+        "sonniss-gdc-2026"
+      ],
+      "fontIds": [
+        "fraunces",
+        "newsreader",
+        "space-grotesk"
+      ],
+      "palette": [
+        "#191B1D",
+        "#C3B49C",
+        "#EFE5D7"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "analog-vhs",
+      "name": "Analog VHS",
+      "tone": "Grain, light leaks and aged type",
+      "useCase": "Retro recaps, nostalgia",
+      "assetIds": [
+        "mixkit-light-leaks",
+        "ambientcg-materials",
+        "pixabay-transition-sounds",
+        "svgeneration-patterns"
+      ],
+      "fontIds": [
+        "special-elite",
+        "rubik-glitch",
+        "vt323"
+      ],
+      "palette": [
+        "#111218",
+        "#F17AB1",
+        "#D5CE92"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "bauhaus-shapes",
+      "name": "Bauhaus geometry",
+      "tone": "Bold custom shapes and contrast",
+      "useCase": "Modern product or announcement",
+      "assetIds": [
+        "creatica-original-backgrounds",
+        "svgeneration-patterns",
+        "svg-repo-styles",
+        "inkscape-vector"
+      ],
+      "fontIds": [
+        "syne",
+        "bricolage-grotesque",
+        "unbounded"
+      ],
+      "palette": [
+        "#1B1C21",
+        "#F3CD3E",
+        "#D94A45"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "quiet-nature",
+      "name": "Quiet natural",
+      "tone": "Soft focus, sincere color and spacious pacing",
+      "useCase": "Gentle tutorials, lifestyle",
+      "assetIds": [
+        "pexels-vertical-video",
+        "unsplash-photos",
+        "mixkit-stock-music",
+        "fontshare-free"
+      ],
+      "fontIds": [
+        "dm-sans",
+        "fraunces",
+        "caveat"
+      ],
+      "palette": [
+        "#F6F2E8",
+        "#81A294",
+        "#4D605F"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "high-stakes-play",
+      "name": "High-energy highlights",
+      "tone": "Decisive cuts, readable punchlines",
+      "useCase": "Gameplay wins and competitive highlights",
+      "assetIds": [
+        "kenney-impact-sounds",
+        "mixkit-game-sounds",
+        "kenney-crosshair-art",
+        "sonniss-gdc-2026"
+      ],
+      "fontIds": [
+        "black-ops-one",
+        "anton",
+        "archivo-black"
+      ],
+      "palette": [
+        "#18181C",
+        "#E9633C",
+        "#EEEEEE"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "historical-collage",
+      "name": "Historical collage",
+      "tone": "Paper textures and unusual archival visuals",
+      "useCase": "History and editorial formats",
+      "assetIds": [
+        "smithsonian-open",
+        "met-open-art",
+        "nga-open-art",
+        "polyhaven-textures"
+      ],
+      "fontIds": [
+        "cinzel",
+        "fraunces",
+        "newsreader"
+      ],
+      "palette": [
+        "#2E2628",
+        "#C6A66B",
+        "#EEE0C9"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "comic-pop",
+      "name": "Comic pop",
+      "tone": "Characterful stickers and playful block colors",
+      "useCase": "Reactions and fun explainers",
+      "assetIds": [
+        "kenney-emote-icons",
+        "open-doodles-free",
+        "svg-repo-styles",
+        "kenney-pattern-pack"
+      ],
+      "fontIds": [
+        "luckiest-guy",
+        "bungee",
+        "righteous"
+      ],
+      "palette": [
+        "#28233D",
+        "#EE5D86",
+        "#F1E361"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "original-3d",
+      "name": "Original 3D",
+      "tone": "Unique perspective and authored lighting",
+      "useCase": "Original product or tech stage",
+      "assetIds": [
+        "blender-3d",
+        "polyhaven-textures",
+        "creatica-original-backgrounds",
+        "kenney-particle-pack"
+      ],
+      "fontIds": [
+        "space-grotesk",
+        "unbounded",
+        "dm-sans"
+      ],
+      "palette": [
+        "#14212D",
+        "#92A8B1",
+        "#EFC18A"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    },
+    {
+      "id": "fantasy-storybook",
+      "name": "Fantasy storybook",
+      "tone": "Warm parchment and decorative borders",
+      "useCase": "Game lore or whimsical narrative",
+      "assetIds": [
+        "kenney-fantasy-borders",
+        "kenney-adventure-ui",
+        "ambientcg-materials",
+        "game-icons-ccby"
+      ],
+      "fontIds": [
+        "cinzel",
+        "uncial-antiqua",
+        "fraunces"
+      ],
+      "palette": [
+        "#342C2B",
+        "#C0A37F",
+        "#F1E4CC"
+      ],
+      "motion": "Match the subject and select a distinct, justified transition rather than a default template.",
+      "sound": "Choose an individually licensed source; adapt texture, placement and dynamics to the clip.",
+      "avoid": "Do not apply the style mechanically or repeatedly across consecutive projects."
+    }
+  ],
+  "selectionPolicy": {
+    "version": 1,
+    "steps": [
+      "Determine subject, mood, audience, format and audio needs before choosing resources.",
+      "Offer two or three materially different directions, not cosmetic reskins of one template.",
+      "Use distinct primary font pairs, palette, motion language, audio texture and source families when producing consecutive outputs.",
+      "Choose resources by source ID; verify each exact item license and destination platform before fetching or exporting.",
+      "Prefer new generator seeds and an appropriate original layout over reusing the last graphic composition.",
+      "Use only permitted editor integrations. A source link is not an installed plugin or an edit action.",
+      "Avoid transitions without purpose. Quality, pacing, readability and emotional fit outrank mere novelty.",
+      "Do not feed media-only libraries into AI training. Keep downloaded binaries out of this public link directory."
+    ],
+    "avoidConsecutive": {
+      "direction": true,
+      "primaryFontPair": true,
+      "signatureTransition": true
+    },
+    "rank": [
+      "content-fit",
+      "licensing",
+      "editor-compatibility",
+      "craft",
+      "style-diversity"
+    ]
+  }
 }
