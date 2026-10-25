@@ -29,3 +29,9 @@ Read resources.json schemaVersion 1 for 7 Muaaz reference collections, source-ch
 ## Choosing genuinely different creative looks
 
 Use `resources.json.directions` and `selectionPolicy` to propose content-appropriate visual and sonic options, selecting linked asset IDs and avoiding the same direction, font pair and transition in consecutive outputs. All links are external resources; the source metadata does not install editing apps or supply asset bytes. Check rights and source restrictions per work, especially musical attribution, Stock Video Free License restrictions, and no-AI-training audio licenses. See `docs/CREATIVE_DIRECTIONS.md` and `docs/CREATOR_ASSET_LICENSES.md`.
+
+## Agent integration and schema
+
+- Resource schema: https://hipdiscovery.github.io/Free-Sound-Effects/resources.schema.json
+- Editing-agent integration guide: https://hipdiscovery.github.io/Free-Sound-Effects/docs/AGENT_INTEGRATION.md
+- Never treat a resource-list entry as a downloaded licensed asset or an installed editing connector.

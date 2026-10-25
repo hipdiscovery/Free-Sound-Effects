@@ -25,6 +25,8 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 - Some source pages are mixed paid/free (e.g., Pixelarticons: 1,036 free icons vs. Pro). Replace unavailable original sources rather than leaving broken links. Haikei replaces inaccessible SVGeneration, while preserving all 13 direction IDs.
 - The static site's search/filter and direction-selection controls must have accessible labels, honest counts, responsive layouts, and loading/empty/error states. Validate with `npm test`, actual browser behavior and published-byte comparisons before claiming production success.
 
+- `resources.schema.json` documents static source metadata and `docs/AGENT_INTEGRATION.md` documents cautious editor handoff. The schema is structural, not a complete legal audit; Node validators enforce ID uniqueness, license categories and direction referential integrity.
+
 ## Catalog and rights
 
 - `catalog.json` is the stable machine interface; `llms.txt` and `catalog.schema.json` document discovery/schema. `audio/<source-id>/` holds original reviewed audio; `licenses/` and `docs/<source>-review.json` retain evidence.

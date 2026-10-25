@@ -18,6 +18,8 @@ The [searchable creator directory](resources.html) links **73 creator-ready libr
 
 **Rights matter:** publisher license links, access needs and per-asset cautions are recorded in the catalog and [license research](docs/CREATOR_ASSET_LICENSES.md). CC0 is preferred for reusable original files, while some stock sources forbid rehosting and some audio licenses expressly forbid AI/ML training. More sources do not mean blanket permission to reuse any public file. See the optional [CapCut workflow](docs/CAPCUT_WORKFLOW.md) for one future editing environment, not a product limitation.
 
+For editor and AI-agent handoff, see the [static resource schema](resources.schema.json) and [integration guide](docs/AGENT_INTEGRATION.md). They describe how to select assets without assuming the editor has an integration or automatic download permission.
+
 ## Verified, locally hosted sound effects
 
 100 unchanged Ogg Vorbis effects from [Kenney's Interface Sounds](https://kenney.nl/assets/interface-sounds): clicks, switches, confirmations, errors, navigation, glass, glitches and more. CC0-1.0 permits redistribution and commercial use; creator credit is appreciated. See [source checks and limitations](docs/SOURCES.md), [the original license](licenses/kenney-interface.txt) and [recorded review evidence](docs/kenney-interface-review.json).
