@@ -4,66 +4,93 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#102923">
-<meta name="description" content="Find source-checked free creator assets: fonts, video animations, titles, thumbnails and sound effects, with original links and license guidance.">
-<title>Creator resources & fonts | Creator Asset Library</title>
+<meta name="description" content="Explore 66 free creative resource sources, 55 font links and 13 distinct visual directions for creators. Original links, licensing terms, unique styles and no asset mirrors.">
+<title>Creative resources & directions | Creator Asset Library</title>
 <link rel="canonical" href="https://hipdiscovery.github.io/Free-Sound-Effects/resources.html">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="resources.css">
-<link rel="alternate" type="application/json" href="resources.json" title="Creator resources catalog">
+<link rel="stylesheet" href="resources.css?v=20261025-3">
+<link rel="alternate" type="application/json" href="resources.json?v=20261025-3" title="Creator resources catalog">
 </head>
 <body>
 <a class="skip" href="#directory">Skip to resources</a>
 <header>
   <a class="brand" href="./"><span class="mark" aria-hidden="true">▥</span> Creator Asset Library <span class="by">by hipdiscovery</span></a>
-  <nav aria-label="Main"><a href="./#library">Sound effects</a><a href="resources.html" aria-current="page">Resources</a><a class="contribute" href="https://github.com/hipdiscovery/Free-Sound-Effects">GitHub ↗</a></nav>
+  <nav aria-label="Main"><a href="#directions">Directions</a><a href="#directory" aria-current="page">Resources</a><a href="./#library">Sound effects</a><a class="contribute" href="https://github.com/hipdiscovery/Free-Sound-Effects">GitHub ↗</a></nav>
 </header>
 <main>
   <section class="res-hero">
     <div class="res-hero-copy">
-      <p class="res-kicker"><span class="res-kicker-dot" aria-hidden="true"></span> A SOURCE-FIRST CREATOR TOOLKIT</p>
-      <h1>More creating.<br><em>Less searching.</em></h1>
-      <p>Useful free resources organized in one place. Original creator links, clear access requirements and licensing notes — not unexplained asset ZIPs.</p>
-      <a class="res-hero-link" href="#directory">Explore the directory <span aria-hidden="true">↘</span></a>
+      <p class="res-kicker"><span class="res-kicker-dot" aria-hidden="true"></span> FREE RESOURCES. MORE WAYS TO MAKE.</p>
+      <h1>Make it different.<br><em>Make it yours.</em></h1>
+      <p>Discover different sound palettes, imagery, graphic styles, motion sources and fonts. Choose a direction that fits the actual content, instead of making the same edit again.</p>
+      <a class="res-hero-link" href="#directions">Explore creative directions <span aria-hidden="true">↘</span></a>
     </div>
     <div class="res-hero-aside" aria-label="Library at a glance">
       <p>THE LIBRARY <span>2026 / 01</span></p>
-      <div><strong id="collection-total">7</strong><span>creator collections</span></div>
-      <div><strong id="font-total">30</strong><span>linked font families</span></div>
+      <div><strong id="asset-total">66</strong><span>creative source options</span></div>
+      <div><strong id="collection-total">7</strong><span>creator reference collections</span></div>
+      <div><strong id="font-total">55</strong><span>linked font families</span></div>
       <div><strong>100</strong><span><a href="./#library">CC0 sound previews ↗</a></span></div>
-      <small>Curated links. No mirrored downloads.</small>
+      <small>13 creative directions. Curated links, not file mirrors.</small>
     </div>
   </section>
   <aside class="res-guidance">
     <div><strong>Free to access does not mean free to redistribute.</strong><p>All external resources remain with their creators. Google Fonts are open source; the original family license governs copies. For other assets, review the publisher's terms before commercial use.</p></div>
-    <a href="docs/MUAAZ_RESOURCES.md">Read the source review ↗</a>
+    <a href="docs/CREATOR_ASSET_LICENSES.md">Review original-source licenses ↗</a>
   </aside>
+
+  <section id="directions" class="res-direction-section" aria-labelledby="direction-title">
+    <div class="res-section-heading">
+      <div><p class="res-overline">CHOOSE A LOOK / DIFFERENT BY DESIGN</p><h2 id="direction-title">Explore distinct creative directions</h2></div>
+      <button type="button" id="res-next-directions" class="res-direction-next">Show more looks ↻</button>
+    </div>
+    <p class="res-direction-intro">These are starting points, not rigid templates. Cycle through different typography, palettes, sounds and source libraries, then make each one appropriate to the actual footage.</p>
+    <div id="res-direction-cards" class="res-direction-grid" aria-live="polite"></div>
+  </section>
   <section class="res-directory" id="directory" aria-labelledby="directory-title">
-    <div class="res-section-heading"><div><p class="res-overline">01 / COLLECTIONS</p><h2 id="directory-title">The creator directory</h2></div><a href="resources.json">JSON catalog ↗</a></div>
+    <div class="res-section-heading"><div><p class="res-overline">FIND THE RIGHT SOURCE</p><h2 id="directory-title">Browse creative tools & assets</h2></div><a href="resources.json">JSON catalog ↗</a></div>
     <form id="res-form" role="search">
       <label class="sr" for="res-query">Search resources and fonts</label>
-      <div class="res-input-wrap"><span aria-hidden="true">⌕</span><input id="res-query" type="search" placeholder="Search fonts, thumbnails, effects…" autocomplete="off"><kbd>/</kbd></div>
+      <div class="res-input-wrap"><span aria-hidden="true">⌕</span><input id="res-query" type="search" placeholder="Search by mood, style, asset, license, or purpose…" autocomplete="off"><kbd>/</kbd></div>
       <button class="res-reset" id="res-reset" type="button">Reset</button>
     </form>
     <div class="res-filters" id="res-filters" role="group" aria-label="Filter by category">
       <button type="button" data-filter="All" aria-pressed="true">All</button>
+      <button type="button" data-filter="Audio" aria-pressed="false">Sound & music</button>
+      <button type="button" data-filter="Video" aria-pressed="false">Footage & motion</button>
+      <button type="button" data-filter="Motion" aria-pressed="false">VFX overlays</button>
+      <button type="button" data-filter="Images" aria-pressed="false">Photos & artwork</button>
+      <button type="button" data-filter="Graphics" aria-pressed="false">Graphics & icons</button>
       <button type="button" data-filter="Fonts" aria-pressed="false">Fonts</button>
-      <button type="button" data-filter="Audio" aria-pressed="false">Audio</button>
-      <button type="button" data-filter="Motion" aria-pressed="false">Motion</button>
-      <button type="button" data-filter="Planning" aria-pressed="false">Video planning</button>
+      <button type="button" data-filter="Tools" aria-pressed="false">Creation tools</button>
+      <button type="button" data-filter="Planning" aria-pressed="false">Research</button>
       <button type="button" data-filter="Business" aria-pressed="false">Creator business</button>
     </div>
     <p id="res-status" class="res-status" role="status">Loading resource directory…</p>
-    <div id="res-collections" class="res-collection-grid"></div>
+    <div id="res-active-direction" class="res-active-direction" hidden>
+      <p id="res-active-title"></p><button type="button" id="res-clear-direction">Clear direction ×</button>
+    </div>
+    <section id="res-asset-block" aria-labelledby="assets-title">
+      <div class="res-section-heading res-asset-heading"><div><p class="res-overline">01 / EDITABLE SOURCE MATERIAL</p><h2 id="assets-title">Creative source libraries</h2></div><a href="docs/CREATOR_ASSET_LICENSES.md">Source & rights research ↗</a></div>
+      <p class="res-asset-summary">Open the original source to choose individual assets. Free links do not mean all files are cleared for redistribution or for every commercial context.</p>
+      <div id="res-assets" class="res-asset-grid"></div>
+      <button id="res-show-assets" type="button" class="res-view-more" hidden>Show more sources</button>
+    </section>
+    <section id="res-collection-block" aria-labelledby="collections-title">
+      <div class="res-section-heading res-collection-heading"><div><p class="res-overline">02 / CREATOR REFERENCES</p><h2 id="collections-title">Research collections from Muaaz</h2></div><a href="docs/MUAAZ_RESOURCES.md">Source evidence ↗</a></div>
+      <div id="res-collections" class="res-collection-grid"></div>
+    </section>
     <section id="res-font-block" class="res-font-block" aria-labelledby="fonts-title">
-      <div class="res-section-heading res-font-heading"><div><p class="res-overline">02 / TYPE</p><h2 id="fonts-title">Individual font links</h2></div><p>23 Google Fonts · 7 independent sources</p></div>
-      <p class="res-font-note">These 30 fonts were located in Muaaz's public directory. Google Fonts are open source for commercial designs; the individual family license applies to redistribution and modification. Independent font sites need a separate license review. <a href="https://developers.google.com/fonts/faq">Google Fonts FAQ ↗</a></p>
+      <div class="res-section-heading res-font-heading"><div><p class="res-overline">03 / TYPE CHOICES</p><h2 id="fonts-title">More distinct fonts</h2></div><p>48 Google Fonts · 7 independent sources</p></div>
+      <p class="res-font-note">The original Muaaz list is supplemented with 25 deliberately different display, editorial, handwriting, pixel and tech faces. Google Fonts are open source for commercial designs; seven independent font-site listings still require individual license review. <a href="https://developers.google.com/fonts/faq">Google Fonts FAQ ↗</a></p>
       <div id="res-fonts" class="res-font-grid"></div>
+      <button id="res-show-fonts" class="res-view-more" type="button" hidden>Show more fonts</button>
     </section>
     <div id="res-empty" class="res-empty" hidden><strong>No matching resources.</strong><p>Try another search or reset the filters.</p></div>
     <noscript><p>Enable JavaScript for interactive filtering, or read the <a href="resources.json">JSON catalog</a>.</p></noscript>
   </section>
 </main>
 <footer><span>Creator Asset Library / hipdiscovery</span><p>External resources remain with their creators. No sponsored links or asset mirrors.</p><a href="./#library">CC0 sound library ↗</a></footer>
-<script type="module" src="resources.js?v=20261023-2"></script>
+<script type="module" src="resources.js?v=20261025-3"></script>
 </body>
 </html>
