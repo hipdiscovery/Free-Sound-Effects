@@ -45,3 +45,7 @@ const sources = choices.map(({title, link, licenseUrl, caveat}) => ({title, link
 The current site uses static HTML, CSS, JavaScript and JSON. It does not require an account, API key, hosted model, telemetry system, asset mirror, scheduled crawler, or local always-on machine.
 
 Last audited: 2026-10-25.
+
+## Publishing handoff
+
+For platform-specific copy, URL placement, X source-code evidence, Threads topics and Snapchat destination/retention choices, read [Social publishing research](SOCIAL_PUBLISHING.md). Keep this as the shared source rather than duplicating dated advice in downstream app repositories.

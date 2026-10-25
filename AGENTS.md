@@ -60,3 +60,7 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 - `npm run serve` starts the existing Python HTTP server. On Windows use a working installed interpreter if its `python` command is unavailable: `py -3 -m http.server 8097 --bind 127.0.0.1`.
 - Separate catalog validation, browser-decoded playback, audible listening and public deployment. Exact-byte uniqueness cannot prove perceptual deduplication. Verify deployed bytes before claiming Pages published a source commit.
 - Instruction-only edits need source/command/diff review and the catalog test gate; no media import or fresh browser/listening claim. State exact checks that could not run.
+
+## Social publishing research
+
+- Read [docs/SOCIAL_PUBLISHING.md](docs/SOCIAL_PUBLISHING.md) before preparing social captions or interpreting X ranking claims. Keep main posts/artwork URL-free, preserve required credit, and use a useful own follow-up or profile link. Distinguish dated code evidence from live algorithm claims; verify real topics, media eligibility and posted destinations. This guide grants no publishing, spending or account-access authorization.
