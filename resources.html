@@ -8,8 +8,8 @@
 <title>Creative resources & directions | Creator Asset Library</title>
 <link rel="canonical" href="https://hipdiscovery.github.io/Free-Sound-Effects/resources.html">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="resources.css?v=20261025-3">
-<link rel="alternate" type="application/json" href="resources.json?v=20261025-3" title="Creator resources catalog">
+<link rel="stylesheet" href="resources.css?v=20261025-5">
+<link rel="alternate" type="application/json" href="resources.json?v=20261025-5" title="Creator resources catalog">
 </head>
 <body>
 <a class="skip" href="#directory">Skip to resources</a>
@@ -46,6 +46,7 @@
     </div>
     <p class="res-direction-intro">These are starting points, not rigid templates. Cycle through different typography, palettes, sounds and source libraries, then make each one appropriate to the actual footage.</p>
     <div id="res-direction-cards" class="res-direction-grid" aria-live="polite"></div>
+    <p id="res-copy-status" class="sr" role="status"></p>
   </section>
   <section class="res-directory" id="directory" aria-labelledby="directory-title">
     <div class="res-section-heading"><div><p class="res-overline">FIND THE RIGHT SOURCE</p><h2 id="directory-title">Browse creative tools & assets</h2></div><a href="resources.json">JSON catalog ↗</a></div>
@@ -90,7 +91,14 @@
     <noscript><p>Enable JavaScript for interactive filtering, or read the <a href="resources.json">JSON catalog</a>.</p></noscript>
   </section>
 </main>
+<dialog id="res-copy-fallback" class="res-copy-dialog" aria-labelledby="res-copy-dialog-title">
+  <h2 id="res-copy-dialog-title">Copy your creative direction</h2>
+  <p>Clipboard access was unavailable. Select and copy this text into your editing workflow.</p>
+  <label for="res-copy-text">Source-backed creative brief</label>
+  <textarea id="res-copy-text" rows="12" readonly></textarea>
+  <button id="res-copy-close" type="button">Close</button>
+</dialog>
 <footer><span>Creator Asset Library / hipdiscovery</span><p>External resources remain with their creators. No sponsored links or asset mirrors.</p><a href="./#library">CC0 sound library ↗</a></footer>
-<script type="module" src="resources.js?v=20261025-4"></script>
+<script type="module" src="resources.js?v=20261025-5"></script>
 </body>
 </html>

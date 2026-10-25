@@ -71,6 +71,44 @@ function assetCard(asset) {
   card.append(topline, info, pills, actions, details);
   return card;
 }
+function buildCreativeBrief(direction) {
+  const sources = direction.assetIds.map(id => catalog.assets.find(a => a.id === id)).filter(Boolean);
+  const fonts = direction.fontIds.map(id => catalog.fonts.find(f => f.id === id)).filter(Boolean);
+  return [
+    "CREATOR ASSET LIBRARY — CREATIVE DIRECTION",
+    "Direction: " + direction.name,
+    "Visual tone: " + direction.tone,
+    "Suitable for: " + direction.useCase,
+    "Suggested palette: " + direction.palette.join(", "),
+    "Font options (choose a purposeful pair, not all):",
+    ...fonts.map(font => "- " + font.name + " — " + font.url + " (" + font.licenseStatus + ")"),
+    "Original resource candidates (links are NOT downloaded assets):",
+    ...sources.map(source => "- " + source.title + " [" + source.category + "] — " + source.link + " | terms: " + source.licenseUrl + " | " + source.caveat),
+    "Suggested motion approach: " + direction.motion,
+    "Suggested sound approach: " + direction.sound,
+    "Avoid: " + direction.avoid,
+    "Use your actual footage, purpose and target audience to select or reject assets. Show at least two distinct suitable concepts when a creative direction is undecided. Do not repeat a prior primary font pair, signature transition, or sound palette by default.",
+    "Check the exact external file's commercial-use, attribution, platform and third-party rights before importing. Do not assume bundled assets, installed integrations or permission to redistribute. No paid/metered services without approval. Sonniss audio cannot be used for AI training.",
+    "Full source catalog: https://hipdiscovery.github.io/Free-Sound-Effects/resources.json",
+    "Direction guide: https://hipdiscovery.github.io/Free-Sound-Effects/docs/CREATIVE_DIRECTIONS.md"
+  ].join("\n");
+}
+async function copyBrief(direction) {
+  const text = buildCreativeBrief(direction);
+  const status = $("#res-copy-status");
+  try {
+    if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("Clipboard unavailable");
+    await navigator.clipboard.writeText(text);
+    status.textContent = "Copied " + direction.name + " brief. Source links and rights notes are included.";
+  } catch {
+    const dlg = $("#res-copy-fallback"), field = $("#res-copy-text");
+    field.value = text;
+    dlg.showModal();
+    field.focus();
+    field.select();
+    status.textContent = "Clipboard access unavailable. The complete brief is ready to copy manually.";
+  }
+}
 function directionCard(dir) {
   const card = node("article", "res-direction-card");
   const swatches = node("div", "res-direction-swatches");
@@ -93,7 +131,13 @@ function directionCard(dir) {
     render();
     $("#directory").scrollIntoView({block:"start", behavior:"auto"});
   });
-  card.append(swatches, node("h3", "", dir.name), label, usage, fonts, button);
+  const buttons = node("div", "res-direction-actions");
+  const copy = node("button", "res-direction-copy", "Copy agent brief");
+  copy.type = "button";
+  copy.setAttribute("aria-label", "Copy " + dir.name + " creative brief with sources and license notes");
+  copy.addEventListener("click", () => { void copyBrief(dir); });
+  buttons.append(button, copy);
+  card.append(swatches, node("h3", "", dir.name), label, usage, fonts, buttons);
   return card;
 }
 function renderDirections() {
@@ -162,6 +206,7 @@ function render() {
   if (active) params.set("direction", active.id);
   history.replaceState(null, "", location.pathname + (params.size ? "?" + params : "") + location.hash);
 }
+$("#res-copy-close").addEventListener("click", () => $("#res-copy-fallback").close());
 $("#res-form").addEventListener("submit", event => event.preventDefault());
 $("#res-reset").addEventListener("click", () => { input.value = ""; category = "All"; activeDirection = null; expandAssets = false; expandFonts = false; render(); input.focus(); });
 $("#res-clear-direction").addEventListener("click", () => { activeDirection = null; render(); });
@@ -176,7 +221,7 @@ document.addEventListener("keydown", event => {
   }
 });
 try {
-  const response = await fetch("resources.json?v=20261025-3");
+  const response = await fetch("resources.json?v=20261025-5");
   if (!response.ok) throw Error("HTTP " + response.status);
   const data = await response.json();
   if (data.schemaVersion !== 1 || !Array.isArray(data.assets) || !Array.isArray(data.collections) || !Array.isArray(data.fonts) || !Array.isArray(data.directions)) throw Error("Unsupported catalog");
