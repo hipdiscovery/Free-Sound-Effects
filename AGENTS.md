@@ -27,7 +27,7 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 
 - `resources.schema.json` documents static source metadata and `docs/AGENT_INTEGRATION.md` documents cautious editor handoff. The schema is structural, not a complete legal audit; Node validators enforce ID uniqueness, license categories and direction referential integrity.
 
-- `transition-presets.json` contains 40 observed `xfade` transition identifiers with timing and editorial context, not pre-rendered assets. `docs/PROCEDURAL_TRANSITIONS.md` explains normalization and license compliance. Verify the actual FFmpeg build before running commands. Do not install tools or use metered processing without approval.
+- `transition-presets.json` contains 40 observed `xfade` transition identifiers with timing and editorial context, not pre-rendered assets. `docs/PROCEDURAL_TRANSITIONS.md` explains normalization and license compliance. The dependency-free validators `scripts/validate-transition-presets.mjs` and `scripts/test-transition-presets.mjs` check preset names, families, timing, safety notes, and 11 rejection fixtures. Verify the actual FFmpeg build before running commands. Do not install tools or use metered processing without approval.
 
 ## Catalog and rights
 

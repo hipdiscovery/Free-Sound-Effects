@@ -7,7 +7,7 @@ This optional **offline rendering** approach gives an editing agent more choices
 - FFmpeg filter reference: https://ffmpeg.org/ffmpeg-filters.html#xfade
 - Open-source software licensing: https://ffmpeg.org/legal.html
 - Machine-readable 40 curated built-in choices: [transition-presets.json](../transition-presets.json)
-- Recorded check: `ffmpeg -hide_banner -h filter=xfade` on FFmpeg 7.1.5 in the independent test environment; both clips must be normalized.
+- Recorded check: `ffmpeg -hide_banner -h filter=xfade` on FFmpeg 7.1.5 in the independent test environment; both clips must be normalized. All 40 curated xfade variants rendered synthetic two-color sequences to null output using FFmpeg 7.1.5 in the isolated test environment. This verifies filter execution and decoding, not real footage or audio playback on the owner's devices.
 
 ## Practical example (no user content)
 
@@ -31,7 +31,7 @@ The example assumes matching inputs and intentionally omits audio. Real videos m
 | Retro | Visual grammar of old displays and games | pixelize, circleopen, circleclose |
 | Geometric | Distinct wipes, crops and panels | wipeleft, rectcrop, radial, diagbr |
 | Action | Motion-driven change matched to footage | slideleft, coverup, squeezeh |
-| Glitch | Intentionally fractured strips or winds | hlslice, v­uslice, hlwind |
+| Glitch | Intentionally fractured strips or winds | hlslice, vuslice, hlwind |
 | Experimental | Nonstandard distance reveals | distance |
 
 ### Audio
