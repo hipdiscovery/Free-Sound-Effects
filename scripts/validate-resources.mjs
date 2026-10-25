@@ -85,7 +85,7 @@ export function validateResources(c) {
     }
     if (item.rights === "open-notice") assert.equal(item.attribution, "notice");
     if (item.rights === "font-commercial") assert.equal(item.publisher, "Fontshare");
-    if (item.rights === "check-item") assert.equal(item.attribution, "per-item");
+    if (item.rights === "check-item") assert(["none", "per-item"].includes(item.attribution), "Item-level licensing does not necessarily mandate attribution");
   }
   const directions = new Set();
   for (const d of c.directions) {
