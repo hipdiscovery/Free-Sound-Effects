@@ -10,6 +10,12 @@ Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original
 
 **Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. Some author ZIP packs require email and newsletter signup; a free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
 
+## Free CapCut-ready resources
+
+The [editing essentials](resources.html#capcut-library) now index **34 carefully selected free asset and tool destinations**, including real MP4 overlays, vertical B-roll, chroma-key footage, audio stingers, commercial-use background music, CC0 VFX sprites and textures, transparent callout graphics, and an optional free image editor. Each entry records its origin, license URL, file format, editing workflow and restrictions. The sources are external links, **not mirrored files or a guaranteed blanket license for every user upload**. Prioritize genuine free-license items and check third-party rights.
+
+For repeatable editing, read the [CapCut workflow](docs/CAPCUT_WORKFLOW.md) and [licensing/source assessment](docs/CREATOR_ASSET_LICENSES.md). The list intentionally excludes other-editor template projects, unclear sound rips, and music whose license is not sufficiently cross-platform.
+
 ## Verified, locally hosted sound effects
 
 100 unchanged Ogg Vorbis effects from [Kenney's Interface Sounds](https://kenney.nl/assets/interface-sounds): clicks, switches, confirmations, errors, navigation, glass, glitches and more. CC0-1.0 permits redistribution and commercial use; creator credit is appreciated. See [source checks and limitations](docs/SOURCES.md), [the original license](licenses/kenney-interface.txt) and [recorded review evidence](docs/kenney-interface-review.json).

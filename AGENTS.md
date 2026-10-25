@@ -16,6 +16,13 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 - `scripts/validate-resources.mjs` checks link shape, IDs, categories and conservative license labels. It is not a rights audit or a live URL checker. Preserve search, filtering, URL query state, no-results and failure UI at desktop and narrow widths.
 - Google Fonts commercial-use guidance does not extend to font sites with unverified terms. Do not copy, subscribe for, host or fetch third-party binaries without recorded rights. Keep the existing audio schema and all audio checks untouched.
 
+## CapCut-ready asset directory
+
+- `resources.json.assets` contains **outbound verified creator resources**, not mirrored binaries. Each entry records editor format, original URL, primary rights license URL, explicit cautions, verified date and practical CapCut placement. Do not infer the license of user-submitted stock from a platform's sitewide terms.
+- `docs/CREATOR_ASSET_LICENSES.md` records source licenses and rejected candidates; `docs/CAPCUT_WORKFLOW.md` covers safe cross-posting workflow. Do not broaden to paid/pro trial packs or Premiere-only templates for CapCut.
+- Cross-platform copyright is critical: in-app CapCut Commercial Sounds have platform restrictions; YouTube Audio Library safety doesn't automatically extend off YouTube; some Pixabay music can produce Content ID claims. Do not label outside music "copyright-safe" or auto-mirror sound archives.
+- The resource directory must show visible exact source/rights caveats, have accessible filter/search with no-results state, and default to a manageable curated shortlist. Run `node scripts/validate-resources.mjs`, JS syntax checks, and real published-page tests before claiming deployed behavior.
+
 ## Catalog and rights
 
 - `catalog.json` is the stable machine interface; `llms.txt` and `catalog.schema.json` document discovery/schema. `audio/<source-id>/` holds original reviewed audio; `licenses/` and `docs/<source>-review.json` retain evidence.
