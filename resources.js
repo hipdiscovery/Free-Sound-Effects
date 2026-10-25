@@ -109,7 +109,7 @@ function matches(item, terms) {
 function diversify(items, limit, key) {
   const chosen = [];
   const used = new Set();
-  const best = [...items].sort((a,b) => (a.priority || 2)-(b.priority || 2) || a.title.localeCompare(b.title));
+  const best = [...items].sort((a,b) => (a.priority || 2)-(b.priority || 2) || (a.title || a.name).localeCompare(b.title || b.name));
   for (const kind of [...new Set(best.map(x => x.category || x.style))]) {
     const item = best.find(x => (x.category || x.style) === kind);
     if (item && !used.has(item.id)) { chosen.push(item); used.add(item.id); }
