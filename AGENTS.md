@@ -27,6 +27,8 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 
 - `resources.schema.json` documents static source metadata and `docs/AGENT_INTEGRATION.md` documents cautious editor handoff. The schema is structural, not a complete legal audit; Node validators enforce ID uniqueness, license categories and direction referential integrity.
 
+- `transition-presets.json` contains 40 observed `xfade` transition identifiers with timing and editorial context, not pre-rendered assets. `docs/PROCEDURAL_TRANSITIONS.md` explains normalization and license compliance. Verify the actual FFmpeg build before running commands. Do not install tools or use metered processing without approval.
+
 ## Catalog and rights
 
 - `catalog.json` is the stable machine interface; `llms.txt` and `catalog.schema.json` document discovery/schema. `audio/<source-id>/` holds original reviewed audio; `licenses/` and `docs/<source>-review.json` retain evidence.

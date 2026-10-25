@@ -221,7 +221,7 @@ document.addEventListener("keydown", event => {
   }
 });
 try {
-  const response = await fetch("resources.json?v=20261025-5");
+  const response = await fetch("resources.json?v=20261025-7");
   if (!response.ok) throw Error("HTTP " + response.status);
   const data = await response.json();
   if (data.schemaVersion !== 1 || !Array.isArray(data.assets) || !Array.isArray(data.collections) || !Array.isArray(data.fonts) || !Array.isArray(data.directions)) throw Error("Unsupported catalog");

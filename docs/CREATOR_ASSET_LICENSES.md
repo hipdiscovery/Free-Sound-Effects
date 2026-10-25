@@ -87,3 +87,7 @@ These are linked in `resources.json.assets`. The public site **does not host any
 - **Paid icon upgrades, remote generator API subscriptions, no-license transition packs, copyrighted meme/game clips, and editor-specific project templates**: not part of the no-cost, cross-editor core.
 - **Music training or generative modeling with Sonniss files**: expressly forbidden by its EULA, independent of the availability of the free archive.
 
+
+## Procedural transitions and software compliance — reviewed 2026-10-25
+
+[FFmpeg filter documentation](https://ffmpeg.org/ffmpeg-filters.html#xfade) describes free xfade choices. [FFmpeg's official legal page](https://ffmpeg.org/legal.html) states that the FFmpeg program is LGPL 2.1+ or GPL 2+ depending on optional components/build flags. Locally rendering transitions is not the same as redistributing a binary or linking FFmpeg libraries; software distributor obligations vary. Source clips, audio tracks and underlying content retain their own rights. The linked transition source and 40 machine-readable choices are free procedural tools, not licensed third-party asset downloads.

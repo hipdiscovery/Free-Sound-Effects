@@ -35,3 +35,9 @@ Use `resources.json.directions` and `selectionPolicy` to propose content-appropr
 - Resource schema: https://hipdiscovery.github.io/Free-Sound-Effects/resources.schema.json
 - Editing-agent integration guide: https://hipdiscovery.github.io/Free-Sound-Effects/docs/AGENT_INTEGRATION.md
 - Never treat a resource-list entry as a downloaded licensed asset or an installed editing connector.
+
+## Optional free procedural transitions
+
+- FFmpeg xfade preset metadata: https://hipdiscovery.github.io/Free-Sound-Effects/transition-presets.json
+- Offline FFmpeg guide: https://github.com/hipdiscovery/Free-Sound-Effects/blob/master/docs/PROCEDURAL_TRANSITIONS.md
+- This is a list of filter names and editorial choices, not pre-rendered transitions, a connected plugin or an automatic installer.

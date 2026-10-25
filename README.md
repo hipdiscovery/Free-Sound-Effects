@@ -12,13 +12,15 @@ Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original
 
 ## Broad creator resource library
 
-The [searchable creator directory](resources.html) links **73 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
+The [searchable creator directory](resources.html) links **74 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
 
 **Variety matters:** recommendations should fit the actual clip and differ in palette, main font, source family, sonic palette, motion vocabulary and composition. Use [Creative Directions](docs/CREATIVE_DIRECTIONS.md) and the machine-readable `directions` / `selectionPolicy` in [resources.json](resources.json) rather than repeating the same set. The site includes filters and curated options; it does not auto-install software or fetch external assets.
 
 **Rights matter:** publisher license links, access needs and per-asset cautions are recorded in the catalog and [license research](docs/CREATOR_ASSET_LICENSES.md). CC0 is preferred for reusable original files, while some stock sources forbid rehosting and some audio licenses expressly forbid AI/ML training. More sources do not mean blanket permission to reuse any public file. See the optional [CapCut workflow](docs/CAPCUT_WORKFLOW.md) for one future editing environment, not a product limitation.
 
 For editor and AI-agent handoff, see the [static resource schema](resources.schema.json) and [integration guide](docs/AGENT_INTEGRATION.md). They describe how to select assets without assuming the editor has an integration or automatic download permission.
+
+For more genuinely different movements, the [40 procedural transitions](transition-presets.json) and [offline FFmpeg guide](docs/PROCEDURAL_TRANSITIONS.md) document built-in wipes, slices, reveals, blurs, pixel breakup, iris, slides and motion effects. This **does not install FFmpeg** or claim native integration with any editing software.
 
 ## Verified, locally hosted sound effects
 

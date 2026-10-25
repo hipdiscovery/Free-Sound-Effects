@@ -2922,6 +2922,49 @@
       "sourceType": "library",
       "capcut": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
       "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "ffmpeg-procedural-transitions",
+      "title": "Procedural transitions & audio crossfades",
+      "category": "Tools",
+      "kind": "Tools",
+      "format": "Local video / audio filters; rendered output format is configurable",
+      "description": "Make distinct wipes, reveals, pixel transitions, blur, zoom, slides and fades with precise duration and timing, rather than relying on the same downloaded template.",
+      "workflow": "With an already installed FFmpeg build, normalize two videos to matching frame rate, time base, dimensions and pixel format. Render a chosen xfade option; process audio separately using acrossfade when appropriate. Validate playback in the finished editor.",
+      "capcut": "Render transitions locally using FFmpeg and import the resulting video into an editor when supported; this is not a native CapCut plugin or automatically installed connector.",
+      "link": "https://ffmpeg.org/ffmpeg-filters.html#xfade",
+      "publisher": "FFmpeg",
+      "license": "Open-source executable; LGPL 2.1+ or GPL 2+ depending on build",
+      "licenseUrl": "https://ffmpeg.org/legal.html",
+      "rights": "tool",
+      "attribution": "none",
+      "access": "Free open-source command-line tool; local installation required",
+      "caveat": "Not a stock media license: you still need rights to the input clips and audio. FFmpeg binary redistribution and library linking have LGPL/GPL obligations, depending on enabled features. Check the installed build with ffmpeg -h filter=xfade; no paid API or downloads are initiated here.",
+      "checkedOn": "2026-10-25",
+      "tags": [
+        "transitions",
+        "wipe",
+        "reveal",
+        "glitch",
+        "pixelize",
+        "dissolve",
+        "blur",
+        "zoom",
+        "fades",
+        "local",
+        "video",
+        "audio",
+        "keyframes"
+      ],
+      "styleTags": [
+        "cinematic",
+        "action",
+        "minimal",
+        "retro",
+        "geometric"
+      ],
+      "priority": 1,
+      "sourceType": "editor"
     }
   ],
   "directions": [

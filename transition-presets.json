@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-25",
+  "engine": "FFmpeg xfade",
+  "verifiedAgainst": "FFmpeg 7.1.5 xfade help in independent test environment",
+  "filterDocs": "https://ffmpeg.org/ffmpeg-filters.html#xfade",
+  "licenseUrl": "https://ffmpeg.org/legal.html",
+  "intendedUse": "Optional offline transition design for original source footage, independent of any particular editing app",
+  "limitations": [
+    "Check the installed FFmpeg xfade filter with `ffmpeg -hide_banner -h filter=xfade`; not every build/version supports the same options.",
+    "Both video inputs must share constant frame rate, resolution, pixel format, frame rate and time base. Normalize before xfade. Validate sample aspect ratio.",
+    "Set offset relative to the first clip's timeline (often first clip duration minus overlap duration). Make overlap shorter than each clip.",
+    "xfade handles video only. Process audio separately when needed (for instance, acrossfade), respecting source music licenses and sound balance.",
+    "Many effects should be used sparingly and chosen to fit motion, narrative and accessibility. Flash effects can be uncomfortable for sensitive viewers.",
+    "Using a free executable does not license the input video, music or sound files. FFmpeg distribution obligations depend on how FFmpeg was built."
+  ],
+  "families": [
+    "subtle",
+    "cinematic",
+    "texture",
+    "retro",
+    "geometric",
+    "action",
+    "glitch",
+    "experimental"
+  ],
+  "presets": [
+    {
+      "id": "fade",
+      "title": "Understated cross-dissolve",
+      "family": "subtle",
+      "durationSeconds": 0.5,
+      "bestFor": "Use when continuity is more valuable than spectacle",
+      "avoid": "Avoid on sharp rhythmic cuts",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "fadefast",
+      "title": "Rapid blend",
+      "family": "subtle",
+      "durationSeconds": 0.25,
+      "bestFor": "A restrained short blend between similar shots",
+      "avoid": "Avoid repeated blends in high-paced footage",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "fadeslow",
+      "title": "Patient blend",
+      "family": "cinematic",
+      "durationSeconds": 0.9,
+      "bestFor": "Gentle scene or time change",
+      "avoid": "Avoid for urgent quick reveals",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "fadeblack",
+      "title": "Dip through black",
+      "family": "cinematic",
+      "durationSeconds": 0.45,
+      "bestFor": "Chapter punctuation or atmosphere shift",
+      "avoid": "Avoid frequent black frames in action",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "fadewhite",
+      "title": "Dip through white",
+      "family": "cinematic",
+      "durationSeconds": 0.28,
+      "bestFor": "Light hit or flash into a brighter scene",
+      "avoid": "Avoid strobing and high-brightness sequences",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "dissolve",
+      "title": "Dissolve pattern",
+      "family": "texture",
+      "durationSeconds": 0.55,
+      "bestFor": "Textural hand-off between related shots",
+      "avoid": "Avoid if detail or reading must stay sharp",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "fadegrays",
+      "title": "Grayscale transition",
+      "family": "texture",
+      "durationSeconds": 0.6,
+      "bestFor": "Monochrome/archival editorial story beat",
+      "avoid": "Avoid when essential information is encoded by color",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "pixelize",
+      "title": "Pixel breakup",
+      "family": "retro",
+      "durationSeconds": 0.28,
+      "bestFor": "8-bit/compression-inspired effect",
+      "avoid": "Avoid for clean realistic edits",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "hblur",
+      "title": "Horizontal blur",
+      "family": "cinematic",
+      "durationSeconds": 0.35,
+      "bestFor": "Soft motion hand-off in cinematic context",
+      "avoid": "Avoid for small text or motion-sensitive content",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wipeleft",
+      "title": "Wipe from left",
+      "family": "geometric",
+      "durationSeconds": 0.4,
+      "bestFor": "Directional reveal with a simple edge",
+      "avoid": "Avoid mechanical reuse",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wiperight",
+      "title": "Wipe from right",
+      "family": "geometric",
+      "durationSeconds": 0.4,
+      "bestFor": "Directional reveal with a simple edge",
+      "avoid": "Avoid arbitrary screen travel",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wipeup",
+      "title": "Wipe upward",
+      "family": "geometric",
+      "durationSeconds": 0.4,
+      "bestFor": "Move to an elevated context",
+      "avoid": "Avoid where subject movement contradicts direction",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wipedown",
+      "title": "Wipe downward",
+      "family": "geometric",
+      "durationSeconds": 0.4,
+      "bestFor": "Descend into the next moment",
+      "avoid": "Avoid every-cut repetition",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "smoothleft",
+      "title": "Soft wipe from left",
+      "family": "subtle",
+      "durationSeconds": 0.5,
+      "bestFor": "Cleaner hand-off with softened edge",
+      "avoid": "Avoid when fast cuts work better",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "smoothright",
+      "title": "Soft wipe from right",
+      "family": "subtle",
+      "durationSeconds": 0.5,
+      "bestFor": "Gentle lateral scene progression",
+      "avoid": "Avoid for pixel-perfect UI cuts",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "slideleft",
+      "title": "Slide left",
+      "family": "action",
+      "durationSeconds": 0.35,
+      "bestFor": "Camera-motion match across screens",
+      "avoid": "Avoid when footage does not have compatible motion",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "slideright",
+      "title": "Slide right",
+      "family": "action",
+      "durationSeconds": 0.35,
+      "bestFor": "Camera-motion match in alternate direction",
+      "avoid": "Avoid stacked opposite slide effects",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "slideup",
+      "title": "Slide upward",
+      "family": "action",
+      "durationSeconds": 0.4,
+      "bestFor": "Vertical scrolling/camera-style transition",
+      "avoid": "Avoid accidental jump-cut feeling",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "slidedown",
+      "title": "Slide downward",
+      "family": "action",
+      "durationSeconds": 0.4,
+      "bestFor": "Vertical movement with a consistent composition",
+      "avoid": "Avoid if horizon/subject orientation changes abruptly",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "circleopen",
+      "title": "Circle iris open",
+      "family": "retro",
+      "durationSeconds": 0.55,
+      "bestFor": "Retro film/game reveal",
+      "avoid": "Avoid excessive full-circle reveals",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "circleclose",
+      "title": "Circle iris close",
+      "family": "retro",
+      "durationSeconds": 0.55,
+      "bestFor": "Close a vignette, skit or gameplay chapter",
+      "avoid": "Avoid clipping important objects",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "radial",
+      "title": "Radial sweep",
+      "family": "geometric",
+      "durationSeconds": 0.48,
+      "bestFor": "Clock/technical radial movement",
+      "avoid": "Avoid high-frequency use",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "rectcrop",
+      "title": "Rectangular crop reveal",
+      "family": "geometric",
+      "durationSeconds": 0.46,
+      "bestFor": "Panels, UI windows or structured story reveals",
+      "avoid": "Avoid for organic documentary edits",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "diagtl",
+      "title": "Diagonal from top-left",
+      "family": "geometric",
+      "durationSeconds": 0.36,
+      "bestFor": "Graphic comic or editorial transition",
+      "avoid": "Avoid when diagonal motion competes with text",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "diagbr",
+      "title": "Diagonal from bottom-right",
+      "family": "geometric",
+      "durationSeconds": 0.36,
+      "bestFor": "Alternate diagonal panel shift",
+      "avoid": "Avoid repeated diagonal wipes",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wipetl",
+      "title": "Corner wipe top-left",
+      "family": "geometric",
+      "durationSeconds": 0.38,
+      "bestFor": "Title-card/editorial panel changes",
+      "avoid": "Avoid if source subjects are near the leading corner",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "wipebr",
+      "title": "Corner wipe bottom-right",
+      "family": "geometric",
+      "durationSeconds": 0.38,
+      "bestFor": "Different corner-driven hand-off",
+      "avoid": "Avoid repeated corner sweeps",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "hlslice",
+      "title": "Horizontal slice left",
+      "family": "glitch",
+      "durationSeconds": 0.31,
+      "bestFor": "Tech or abstract slicing treatment",
+      "avoid": "Avoid when people or text must stay legible",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "hrslice",
+      "title": "Horizontal slice right",
+      "family": "glitch",
+      "durationSeconds": 0.31,
+      "bestFor": "Fast, sharp fractured slice",
+      "avoid": "Avoid for natural/lifestyle work",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "vuslice",
+      "title": "Vertical slice up",
+      "family": "glitch",
+      "durationSeconds": 0.31,
+      "bestFor": "Striped vertical tech reveal",
+      "avoid": "Avoid flashes in rapid sequence",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "squeezeh",
+      "title": "Horizontal squeeze",
+      "family": "action",
+      "durationSeconds": 0.35,
+      "bestFor": "Graphic compression or playful perspective",
+      "avoid": "Avoid on realistic faces",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "squeezev",
+      "title": "Vertical squeeze",
+      "family": "action",
+      "durationSeconds": 0.35,
+      "bestFor": "Elastic comic-like transitions",
+      "avoid": "Avoid distracting deformation",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "zoomin",
+      "title": "Zoom into scene",
+      "family": "cinematic",
+      "durationSeconds": 0.42,
+      "bestFor": "Move into an actual visual detail or escalation",
+      "avoid": "Avoid synthetic zooms without subject motivation",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "hlwind",
+      "title": "Horizontal wind left",
+      "family": "glitch",
+      "durationSeconds": 0.33,
+      "bestFor": "Fast directional fragments",
+      "avoid": "Avoid overlaying small dense captions",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "coverleft",
+      "title": "Cover from left",
+      "family": "action",
+      "durationSeconds": 0.36,
+      "bestFor": "New shot covers the old in one direction",
+      "avoid": "Avoid when subject is moving opposite direction",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "coverup",
+      "title": "Cover upward",
+      "family": "action",
+      "durationSeconds": 0.36,
+      "bestFor": "Vertical replace aligned to vertical editing rhythm",
+      "avoid": "Avoid if shot framing mismatches",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "revealright",
+      "title": "Reveal from right",
+      "family": "geometric",
+      "durationSeconds": 0.36,
+      "bestFor": "Peel back the outgoing visual",
+      "avoid": "Avoid repetitive preset choreography",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "revealdown",
+      "title": "Reveal downward",
+      "family": "geometric",
+      "durationSeconds": 0.36,
+      "bestFor": "Reveal next chapter with a vertical break",
+      "avoid": "Avoid when transition blocks faces",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "distance",
+      "title": "Distance-based reveal",
+      "family": "experimental",
+      "durationSeconds": 0.6,
+      "bestFor": "Organic change for unusual story/visual art",
+      "avoid": "Avoid without testing on high-detail footage",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    },
+    {
+      "id": "circlecrop",
+      "title": "Circle crop",
+      "family": "retro",
+      "durationSeconds": 0.48,
+      "bestFor": "Iris/circular viewport with different geometry",
+      "avoid": "Avoid covering meaningful action",
+      "filter": "xfade",
+      "requiresAudioTreatment": true
+    }
+  ]
+}
