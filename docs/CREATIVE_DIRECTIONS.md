@@ -1,6 +1,6 @@
 # Art directions and reusable creator assets
 
-Reviewed 2026-10-25. This repository aims to help a human or future creative agent find **different appropriate looks** rather than repeatedly applying the same preset. The source library is editor-agnostic: each resource is an outbound pointer with license and format notes, not a downloaded template or connected action.
+Reviewed 2026-10-25. The linked catalog now has 73 source entries; Haikei has replaced the unavailable SVGeneration source and seven additional fully sourced options have been included. This repository aims to help a human or future creative agent find **different appropriate looks** rather than repeatedly applying the same preset. The source library is editor-agnostic: each resource is an outbound pointer with license and format notes, not a downloaded template or connected action.
 
 ## Selection contract
 

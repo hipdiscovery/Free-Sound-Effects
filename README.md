@@ -12,7 +12,7 @@ Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original
 
 ## Broad creator resource library
 
-The [searchable creator directory](resources.html) links **66 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
+The [searchable creator directory](resources.html) links **73 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
 
 **Variety matters:** recommendations should fit the actual clip and differ in palette, main font, source family, sonic palette, motion vocabulary and composition. Use [Creative Directions](docs/CREATIVE_DIRECTIONS.md) and the machine-readable `directions` / `selectionPolicy` in [resources.json](resources.json) rather than repeating the same set. The site includes filters and curated options; it does not auto-install software or fetch external assets.
 

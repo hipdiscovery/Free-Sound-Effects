@@ -65,7 +65,6 @@ These are linked in `resources.json.assets`. The public site **does not host any
 | Game-icons.net | [Graphic symbols](https://game-icons.net/) · [terms](https://game-icons.net/about.html) | CC BY usually requires original artist credit and a license link. |
 | Heroicons / Iconoir / Pixelarticons | [Heroicons MIT](https://heroicons.com/) · [Iconoir MIT](https://iconoir.com/) · [Pixelarticons free MIT](https://pixelarticons.com/docs/) | Keep applicable MIT source notices if redistributing icons. Pixelarticons' *Pro* set is separately paid. |
 | Creatica | [Background generator](https://creatica.app/) · [terms](https://creatica.app/terms-and-conditions) | Free browser-generated commercial-use SVG/PNG; users own generated designs. Local MIT CLI/MCP exists; optional remote API/MCP may be paid. |
-| SVGeneration | [Pattern editor](https://svgeneration.com/) | Original MIT-labeled freely customizable SVG designs; no login. |
 | Open Doodles | [Artwork](https://www.opendoodles.com/) | Creator says free personal/commercial use, no attribution required. |
 | Fontshare | [Font directory](https://www.fontshare.com/) · [about](https://www.fontshare.com/about) | Publisher describes commercial-use free fonts, but individual license/embedding and binary redistribution terms must be checked. |
 | Lospec / Piskel | [Palette archive](https://lospec.com/palette-list/) · [Piskel](https://www.piskelapp.com/) · [terms](https://www.piskelapp.com/terms/) | Color palettes and original drawing tools enable new art; displayed user artworks are not automatically licensed. |
@@ -73,6 +72,14 @@ These are linked in `resources.json.assets`. The public site **does not host any
 | Audacity / OpenShot | [Audacity](https://www.audacityteam.org/audacity-4/) · [OpenShot](https://www.openshot.org/) | Free local audio/video production tools, not grants to use copyrighted media. |
 | Upscayl Desktop | [Local downloads](https://upscayl.org/download) | Free local image upscaling; cloud is separate and may be paid. Output inherits source intellectual-property limits. |
 | OpenGameArt | [Curated CC0 sources](https://opengameart.org/content/essential-cc0-assets) | User submissions require original work-by-work rights review; a community list is not a legal verification. |
+
+| Haikei | [Free generators](https://haikei.app/) · [pricing and commercial-use terms](https://haikei.app/pricing/) | 15 generators and unlimited SVG/medium PNG downloads on the free plan; Pro high-resolution features are not included. Replaces the unavailable SVGeneration entry. |
+| Open Peeps | [Modular illustrations](https://www.openpeeps.com/) · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | Original source expressly makes the mix-and-match character library CC0; downloading may open a third-party storefront. |
+| Gratisography | [Original photographs](https://gratisography.com/) · [license](https://gratisography.com/license/) | Free commercial use in integrated projects; no resale/rehosting; publicity and trademark restrictions. Avoid its separately listed AI Generated category when seeking authentic photographs. |
+| NASA | [NASA Image and Video Library](https://images.nasa.gov/) · [media guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | Public-use media is not a blanket CC0 grant; no implied endorsement/logos, and individual third-party materials and likenesses require clearance. NASA should be credited. |
+| Library of Congress | [Free to Use & Reuse](https://www.loc.gov/free-to-use/) · [copyright guidance](https://www.loc.gov/legal/security-copyright-and-privacy/understanding-copyright/) | Per-item rights and access review required. 'No known restrictions' is not a guarantee of public domain. |
+| Kenney musical and sound packs | [Music Jingles](https://kenney.nl/assets/music-jingles) · [RPG Audio](https://kenney.nl/assets/rpg-audio) · [Sci-fi Sounds](https://kenney.nl/assets/sci-fi-sounds) · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | Original pages explicitly mark each pack CC0. Respect real brands and likenesses separately. |
+| Pixelarticons | [Free icon docs](https://pixelarticons.com/docs/) | Official site currently lists 1,036 free MIT Base icons; 5,646-icon full set and alternate styles are Pro/paid. Do not mistake previews for free downloads. |
 
 ## Excluded after checking
 

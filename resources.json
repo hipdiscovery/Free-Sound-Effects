@@ -2226,7 +2226,7 @@
       "category": "Graphics",
       "kind": "Graphics",
       "format": "SVG / PNG / asset pack",
-      "description": "Distinct pixel art glyphs for retro HUDs and 8-bit tutorials.",
+      "description": "The 1,036 free MIT-licensed Base icons offer precise pixel UI accents; the 5,646-icon full collection and other styles require Pro.",
       "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
       "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
       "link": "https://pixelarticons.com/",
@@ -2235,8 +2235,8 @@
       "licenseUrl": "https://pixelarticons.com/docs/",
       "rights": "open-notice",
       "attribution": "notice",
-      "access": "Free downloads or original exports",
-      "caveat": "Only the free MIT set is included; premium icons need a separate paid entitlement.",
+      "access": "1,036 MIT Base icons free; Pro collection is paid",
+      "caveat": "Only the 1,036 free Base icons are included under MIT. The remaining full collection, Sharp/Glyph/Solid variants and some additional packs require a paid Pro license. Do not use paid assets or upgrade prompts.",
       "checkedOn": "2026-10-25",
       "styleTags": [
         "pixel",
@@ -2283,38 +2283,6 @@
         "waves",
         "shapes",
         "gradient"
-      ],
-      "priority": 2,
-      "sourceType": "generator"
-    },
-    {
-      "id": "svgeneration-patterns",
-      "title": "SVGeneration pattern editor",
-      "category": "Graphics",
-      "kind": "Graphics",
-      "format": "SVG / PNG / asset pack",
-      "description": "Make repeatable patterned backgrounds with custom palettes and scales.",
-      "workflow": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
-      "capcut": "Download or create appropriate original art; layer it with content-specific timing and geometry.",
-      "link": "https://svgeneration.com/",
-      "publisher": "SVGeneration",
-      "license": "Free commercial-use original exports",
-      "licenseUrl": "https://svgeneration.com/",
-      "rights": "free-generated",
-      "attribution": "none",
-      "access": "Free downloads or original exports",
-      "caveat": "Free MIT-labeled pattern editor, but third-party embedded images if any need separate clearance.",
-      "checkedOn": "2026-10-25",
-      "styleTags": [
-        "geometric",
-        "bauhaus",
-        "minimal"
-      ],
-      "tags": [
-        "seamless",
-        "patterns",
-        "background",
-        "svg"
       ],
       "priority": 2,
       "sourceType": "generator"
@@ -2675,6 +2643,285 @@
       ],
       "priority": 2,
       "sourceType": "licensed-search"
+    },
+    {
+      "id": "haikei-svg-backgrounds",
+      "title": "Haikei shape & wave generator",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "SVG / PNG (medium-res free)",
+      "description": "Fifteen free generators for layered waves, blobs, grids and textured backgrounds that vary with colors and parameters.",
+      "workflow": "Create a unique composition with varied settings, export SVG or medium-resolution PNG, and save parameters to recreate it.",
+      "link": "https://haikei.app/",
+      "publisher": "Haikei",
+      "license": "Free Basic plan commercial-use generated designs",
+      "licenseUrl": "https://haikei.app/pricing/",
+      "rights": "free-generated",
+      "attribution": "none",
+      "access": "15 free generators; no signup; SVG and medium PNG",
+      "caveat": "Premium features and high-resolution PNG may be gated by the future Pro plan. Generated designs cannot be republished as a competing generator service.",
+      "styleTags": [
+        "geometric",
+        "abstract",
+        "minimal",
+        "bauhaus"
+      ],
+      "tags": [
+        "gradient",
+        "wave",
+        "blob",
+        "pattern",
+        "shape",
+        "background"
+      ],
+      "priority": 1,
+      "sourceType": "generator",
+      "capcut": "Create a unique composition with varied settings, export SVG or medium-resolution PNG, and save parameters to recreate it.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "openpeeps-cc0",
+      "title": "Open Peeps modular character illustrations",
+      "category": "Graphics",
+      "kind": "Graphics",
+      "format": "Vector / PNG exports",
+      "description": "Mix-and-match CC0 people illustrations with poses, facial expressions and clothing for distinctive hand-drawn storytelling.",
+      "workflow": "Choose or assemble different poses and expressions; export individual compositions and combine with original layouts.",
+      "link": "https://www.openpeeps.com/",
+      "publisher": "Open Peeps",
+      "license": "Creative Commons Zero 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free CC0; hosted pack download",
+      "caveat": "Characters and scene compositions should fit the context; the original creator does not endorse your work. Pack download may open a third-party storefront.",
+      "styleTags": [
+        "handmade",
+        "doodle",
+        "playful",
+        "editorial"
+      ],
+      "tags": [
+        "people",
+        "handdrawn",
+        "character",
+        "pose",
+        "illustration",
+        "modular"
+      ],
+      "priority": 1,
+      "sourceType": "library",
+      "capcut": "Choose or assemble different poses and expressions; export individual compositions and combine with original layouts.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "gratisography-whimsical",
+      "title": "Gratisography distinctive photography",
+      "category": "Images",
+      "kind": "Images",
+      "format": "High-resolution JPG",
+      "description": "Unusual, colorful and deliberately quirky photography that looks different from generic corporate stock.",
+      "workflow": "Select genuine original photographs rather than the site's AI Generated collection, crop and combine into an original layout.",
+      "link": "https://gratisography.com/",
+      "publisher": "Gratisography",
+      "license": "Gratisography Free Photo License",
+      "licenseUrl": "https://gratisography.com/license/",
+      "rights": "video-commercial",
+      "attribution": "none",
+      "access": "Free downloads; original photographs",
+      "caveat": "Do not redistribute stock images or imply a person or brand endorsed you. The site also has an AI Generated category; avoid it when you need authentic photography. Publicity/trademark rights may still apply.",
+      "styleTags": [
+        "whimsical",
+        "editorial",
+        "playful",
+        "colorful"
+      ],
+      "tags": [
+        "photo",
+        "quirky",
+        "humor",
+        "people",
+        "visual",
+        "non-generic"
+      ],
+      "priority": 1,
+      "sourceType": "library",
+      "capcut": "Select genuine original photographs rather than the site's AI Generated collection, crop and combine into an original layout.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "nasa-image-video",
+      "title": "NASA scientific images and footage",
+      "category": "Video",
+      "kind": "Video",
+      "format": "Images / video / audio vary",
+      "description": "Actual spacecraft, Earth, astronomical observations and science footage for factual or space-themed storytelling.",
+      "workflow": "Select content from NASA's image/video library, verify original credits and no third-party audio, then use in an informative context.",
+      "link": "https://images.nasa.gov/",
+      "publisher": "NASA",
+      "license": "NASA Images & Media Usage Guidelines (not blanket CC0)",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "rights": "check-item",
+      "attribution": "per-item",
+      "access": "Public media library; per-item credit review",
+      "caveat": "NASA media is not a blanket CC0 license. Avoid NASA logos/endorsement claims, protected third-party music/footage, and commercial use of identifiable people's likenesses without releases. Credit NASA.",
+      "styleTags": [
+        "scifi",
+        "documentary",
+        "space",
+        "cinematic"
+      ],
+      "tags": [
+        "nasa",
+        "science",
+        "space",
+        "astronomy",
+        "rocket",
+        "earth",
+        "footage"
+      ],
+      "priority": 2,
+      "sourceType": "licensed-search",
+      "capcut": "Select content from NASA's image/video library, verify original credits and no third-party audio, then use in an informative context.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "loc-free-to-use",
+      "title": "Library of Congress archival images",
+      "category": "Images",
+      "kind": "Images",
+      "format": "Archival photos / prints / scans",
+      "description": "Unusual historical advertising, posters, book art and archival photos from a curated Free to Use and Reuse collection.",
+      "workflow": "Open a chosen archival item and check its own Rights and Access field before placing it in a factual or editorial design.",
+      "link": "https://www.loc.gov/free-to-use/",
+      "publisher": "Library of Congress",
+      "license": "Item-specific rights and access; not a blanket CC0 dedication",
+      "licenseUrl": "https://www.loc.gov/legal/security-copyright-and-privacy/understanding-copyright/",
+      "rights": "check-item",
+      "attribution": "per-item",
+      "access": "Free catalog with item-level rights notes",
+      "caveat": "Some works are public domain, others only have 'no known restrictions' or limited clearances. Check individual records for copyright, privacy/publicity, trademarks and donor conditions; cite the collection.",
+      "styleTags": [
+        "archive",
+        "vintage",
+        "editorial",
+        "historical"
+      ],
+      "tags": [
+        "library",
+        "archives",
+        "poster",
+        "historical",
+        "retro",
+        "print",
+        "photograph"
+      ],
+      "priority": 2,
+      "sourceType": "licensed-search",
+      "capcut": "Open a chosen archival item and check its own Rights and Access field before placing it in a factual or editorial design.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "kenney-music-jingles",
+      "title": "CC0 game and achievement musical jingles",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "OGG / WAV (varies)",
+      "description": "85 short CC0 cues for wins, menu confirms and outcomes, without external background-music attribution friction.",
+      "workflow": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "link": "https://kenney.nl/assets/music-jingles",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free download; optional donation",
+      "caveat": "Original CC0 pack is free for commercial use. Keep the source/license record and do not claim these sounds were recorded by you.",
+      "styleTags": [
+        "arcade",
+        "game",
+        "playful"
+      ],
+      "tags": [
+        "jingle",
+        "music",
+        "win",
+        "achievement",
+        "result",
+        "cue"
+      ],
+      "priority": 1,
+      "sourceType": "library",
+      "capcut": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "kenney-rpg-foley",
+      "title": "CC0 RPG movements and Foley",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "OGG / WAV (varies)",
+      "description": "50 foley effects, including footsteps and weapon sounds, suitable for narrative gaming clips and layered sound design.",
+      "workflow": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "link": "https://kenney.nl/assets/rpg-audio",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free download; optional donation",
+      "caveat": "Original CC0 pack is free for commercial use. Keep the source/license record and do not claim these sounds were recorded by you.",
+      "styleTags": [
+        "fantasy",
+        "game",
+        "natural"
+      ],
+      "tags": [
+        "rpg",
+        "footsteps",
+        "weapon",
+        "foley",
+        "combat",
+        "movement"
+      ],
+      "priority": 1,
+      "sourceType": "library",
+      "capcut": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "id": "kenney-scifi-sfx",
+      "title": "CC0 engines, space and science-fiction effects",
+      "category": "Audio",
+      "kind": "Audio",
+      "format": "OGG / WAV (varies)",
+      "description": "70 sci-fi game-style sound effects for technical reveals, lasers, engines and science-fiction transitions.",
+      "workflow": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "link": "https://kenney.nl/assets/sci-fi-sounds",
+      "publisher": "Kenney",
+      "license": "Creative Commons Zero 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "cc0",
+      "attribution": "none",
+      "access": "Free download; optional donation",
+      "caveat": "Original CC0 pack is free for commercial use. Keep the source/license record and do not claim these sounds were recorded by you.",
+      "styleTags": [
+        "scifi",
+        "tech",
+        "cinematic"
+      ],
+      "tags": [
+        "scifi",
+        "laser",
+        "thruster",
+        "engine",
+        "space",
+        "sfx"
+      ],
+      "priority": 1,
+      "sourceType": "library",
+      "capcut": "Import the exact CC0 sound into a finished edit; convert an OGG file to a compatible format locally if the editor cannot decode it.",
+      "checkedOn": "2026-10-25"
     }
   ],
   "directions": [
@@ -2738,7 +2985,9 @@
         "kenney-scifi-ui",
         "kenney-particle-pack",
         "iconoir-mit",
-        "sonniss-gdc-2026"
+        "sonniss-gdc-2026",
+        "nasa-image-video",
+        "kenney-scifi-sfx"
       ],
       "fontIds": [
         "orbitron",
@@ -2763,7 +3012,8 @@
         "open-doodles-free",
         "kenney-scribble",
         "krita-painter",
-        "kenney-emote-icons"
+        "kenney-emote-icons",
+        "openpeeps-cc0"
       ],
       "fontIds": [
         "permanent-marker",
@@ -2813,7 +3063,7 @@
         "mixkit-light-leaks",
         "ambientcg-materials",
         "pixabay-transition-sounds",
-        "svgeneration-patterns"
+        "haikei-svg-backgrounds"
       ],
       "fontIds": [
         "special-elite",
@@ -2836,7 +3086,7 @@
       "useCase": "Modern product or announcement",
       "assetIds": [
         "creatica-original-backgrounds",
-        "svgeneration-patterns",
+        "haikei-svg-backgrounds",
         "svg-repo-styles",
         "inkscape-vector"
       ],
@@ -2888,7 +3138,8 @@
         "kenney-impact-sounds",
         "mixkit-game-sounds",
         "kenney-crosshair-art",
-        "sonniss-gdc-2026"
+        "sonniss-gdc-2026",
+        "kenney-music-jingles"
       ],
       "fontIds": [
         "black-ops-one",
@@ -2913,7 +3164,8 @@
         "smithsonian-open",
         "met-open-art",
         "nga-open-art",
-        "polyhaven-textures"
+        "polyhaven-textures",
+        "loc-free-to-use"
       ],
       "fontIds": [
         "cinzel",
@@ -2938,7 +3190,8 @@
         "kenney-emote-icons",
         "open-doodles-free",
         "svg-repo-styles",
-        "kenney-pattern-pack"
+        "kenney-pattern-pack",
+        "gratisography-whimsical"
       ],
       "fontIds": [
         "luckiest-guy",
@@ -2988,7 +3241,8 @@
         "kenney-fantasy-borders",
         "kenney-adventure-ui",
         "ambientcg-materials",
-        "game-icons-ccby"
+        "game-icons-ccby",
+        "kenney-rpg-foley"
       ],
       "fontIds": [
         "cinzel",

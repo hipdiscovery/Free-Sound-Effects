@@ -65,7 +65,7 @@ export function validateResources(c) {
     assert(new Set(item.tags).size === item.tags.length && new Set(item.styleTags).size === item.styleTags.length);
     if (item.rights === "cc0") {
       assert.equal(item.attribution, "none");
-      assert(["Kenney", "Poly Haven", "ambientCG"].includes(item.publisher), "CC0 must be proven original-source level");
+      assert(["Kenney", "Poly Haven", "ambientCG", "Open Peeps"].includes(item.publisher), "CC0 must be proven original-source level");
     }
     if (item.rights === "cc0-filter") {
       assert.equal(item.attribution, "none");
@@ -80,7 +80,7 @@ export function validateResources(c) {
       assert(/AI/i.test(item.caveat), "Media-only license must flag AI-training exclusion");
     }
     if (item.rights === "free-generated") {
-      assert(["Creatica", "SVGeneration"].includes(item.publisher));
+      assert(["Creatica", "Haikei"].includes(item.publisher));
       assert.equal(item.sourceType, "generator");
     }
     if (item.rights === "open-notice") assert.equal(item.attribution, "notice");
