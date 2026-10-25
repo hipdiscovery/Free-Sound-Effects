@@ -16,12 +16,13 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 - `scripts/validate-resources.mjs` checks link shape, IDs, categories and conservative license labels. It is not a rights audit or a live URL checker. Preserve search, filtering, URL query state, no-results and failure UI at desktop and narrow widths.
 - Google Fonts commercial-use guidance does not extend to font sites with unverified terms. Do not copy, subscribe for, host or fetch third-party binaries without recorded rights. Keep the existing audio schema and all audio checks untouched.
 
-## CapCut-ready asset directory
+## Diverse creator source directory and agent selection
 
-- `resources.json.assets` contains **outbound verified creator resources**, not mirrored binaries. Each entry records editor format, original URL, primary rights license URL, explicit cautions, verified date and practical CapCut placement. Do not infer the license of user-submitted stock from a platform's sitewide terms.
-- `docs/CREATOR_ASSET_LICENSES.md` records source licenses and rejected candidates; `docs/CAPCUT_WORKFLOW.md` covers safe cross-posting workflow. Do not broaden to paid/pro trial packs or Premiere-only templates for CapCut.
-- Cross-platform copyright is critical: in-app CapCut Commercial Sounds have platform restrictions; YouTube Audio Library safety doesn't automatically extend off YouTube; some Pixabay music can produce Content ID claims. Do not label outside music "copyright-safe" or auto-mirror sound archives.
-- The resource directory must show visible exact source/rights caveats, have accessible filter/search with no-results state, and default to a manageable curated shortlist. Run `node scripts/validate-resources.mjs`, JS syntax checks, and real published-page tests before claiming deployed behavior.
+- `resources.json` keeps separately typed `assets`, `fonts`, `collections`, `directions`, and `selectionPolicy`. `assets[].styleTags`, `sourceType`, `licenseUrl`, `access`, and `caveat` describe actual free resources or tools. Link records are not downloaded media, installed connectors, streaming permissions or editable project files.
+- `docs/CREATIVE_DIRECTIONS.md` defines concrete alternatives with distinct palettes, fonts, audio, composition and motion. Offer different directions based on the real content instead of the same overused transition/font. Do not rely on randomness as proof of quality.
+- For sequential output, avoid repeating the last chosen direction, primary font pair and signature transition when an equally suitable alternative exists. Record choices in the current project context only. Do not collect user usage data, track visitors, crawl sources in the background, or invent interactions with external tools.
+- `docs/CREATOR_ASSET_LICENSES.md` records licensing. Distinguish explicitly CC0 from CC0-filtered collections, Creative Commons attribution, music sync-only media rights and conditional third-party licenses. The Sonniss GDC library is licensed for synchronized media, **never AI/ML training**. No copyrighted stream music, ripped game audio, visual rehosting, newsletter signups or paid/metered services.
+- The static site's search/filter and direction-selection controls must have accessible labels, honest counts, responsive layouts, and loading/empty/error states. Validate with `npm test`, actual browser behavior and published-byte comparisons before claiming production success.
 
 ## Catalog and rights
 

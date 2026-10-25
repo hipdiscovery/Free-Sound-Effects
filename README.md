@@ -10,11 +10,13 @@ Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original
 
 **Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. Some author ZIP packs require email and newsletter signup; a free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
 
-## Free CapCut-ready resources
+## Broad creator resource library
 
-The [editing essentials](resources.html#capcut-library) now index **34 carefully selected free asset and tool destinations**, including real MP4 overlays, vertical B-roll, chroma-key footage, audio stingers, commercial-use background music, CC0 VFX sprites and textures, transparent callout graphics, and an optional free image editor. Each entry records its origin, license URL, file format, editing workflow and restrictions. The sources are external links, **not mirrored files or a guaranteed blanket license for every user upload**. Prioritize genuine free-license items and check third-party rights.
+The [searchable creator directory](resources.html) links **66 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
 
-For repeatable editing, read the [CapCut workflow](docs/CAPCUT_WORKFLOW.md) and [licensing/source assessment](docs/CREATOR_ASSET_LICENSES.md). The list intentionally excludes other-editor template projects, unclear sound rips, and music whose license is not sufficiently cross-platform.
+**Variety matters:** recommendations should fit the actual clip and differ in palette, main font, source family, sonic palette, motion vocabulary and composition. Use [Creative Directions](docs/CREATIVE_DIRECTIONS.md) and the machine-readable `directions` / `selectionPolicy` in [resources.json](resources.json) rather than repeating the same set. The site includes filters and curated options; it does not auto-install software or fetch external assets.
+
+**Rights matter:** publisher license links, access needs and per-asset cautions are recorded in the catalog and [license research](docs/CREATOR_ASSET_LICENSES.md). CC0 is preferred for reusable original files, while some stock sources forbid rehosting and some audio licenses expressly forbid AI/ML training. More sources do not mean blanket permission to reuse any public file. See the optional [CapCut workflow](docs/CAPCUT_WORKFLOW.md) for one future editing environment, not a product limitation.
 
 ## Verified, locally hosted sound effects
 

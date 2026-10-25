@@ -24,4 +24,8 @@ If you have original CC0 sounds or verified creator sources relevant to this lib
 
 ## Linked resources
 
-Read resources.json schemaVersion 1 for Muaaz collections and individually verified font source links. Treat access and rights as conservative status labels, not redistribution permission. No newsletter signup or third-party file copying is performed.
+Read resources.json schemaVersion 1 for 7 Muaaz reference collections, source-checked creator assets, multiple font styles, and distinct art-direction recipes. Treat access and rights as conservative status labels, not redistribution permission. No newsletter signup or third-party file copying is performed.
+
+## Choosing genuinely different creative looks
+
+Use `resources.json.directions` and `selectionPolicy` to propose content-appropriate visual and sonic options, selecting linked asset IDs and avoiding the same direction, font pair and transition in consecutive outputs. All links are external resources; the source metadata does not install editing apps or supply asset bytes. Check rights and source restrictions per work, especially musical attribution, Stock Video Free License restrictions, and no-AI-training audio licenses. See `docs/CREATIVE_DIRECTIONS.md` and `docs/CREATOR_ASSET_LICENSES.md`.

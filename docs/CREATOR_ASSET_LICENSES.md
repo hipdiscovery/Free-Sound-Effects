@@ -45,3 +45,38 @@ Reviewed 2026-10-25. This is a carefully filtered **link directory**: the reposi
 ## CapCut workflow
 
 See [the CapCut editing guide](CAPCUT_WORKFLOW.md) for a short repeatable workflow using these sources safely. The `assets` entries in [resources.json](../resources.json) include access labels, license links, relevant formats, CapCut usage hints, and per-source cautions.
+
+
+## Additional diverse creator sources — reviewed 2026-10-25
+
+These are linked in `resources.json.assets`. The public site **does not host any third-party binary assets**. This section summarizes publisher terms and known restrictions, not guarantees for every file.
+
+| Publisher or tool | Original source and terms | Important distinction |
+| --- | --- | --- |
+| Sonniss GDC 2026 and historical bundles | [2026 collection](https://gdc.sonniss.com/) · [archive](https://sonniss.com/gameaudiogdc/) · [EULA](https://sonniss.com/gdc-bundle-license/) | Royalty-free, no credit for synchronized projects, **explicitly no AI/ML training** and no standalone asset redistribution. Large multi-part downloads. |
+| Scott Buckley | [Music library](https://www.scottbuckley.com.au/library/) · [CC BY terms](https://www.scottbuckley.com.au/library/using-this-music/) | Commercial use with required credit. The author warns YouTube claims can appear without proper description attribution. Some orchestral remixes excluded. |
+| Openverse | [Media search](https://openverse.org/) · [about](https://openverse.org/en/about) | Search aggregator does not validate copyright; independently check every original record and whether CC BY, NC, ND or public-domain terms apply. |
+| Smithsonian | [Open Access](https://www.si.edu/openaccess) · [FAQ](https://www.si.edu/openaccess/faq) | Only CC0-marked collection items; third-party trademarks, publicity, cultural sensitivities may still apply. |
+| The Met | [Open Access](https://www.metmuseum.org/hubs/open-access) · [image FAQ](https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources) | CC0 for Open Access-marked objects, not all museum content; no institution endorsement implied. |
+| National Gallery | [Open artwork images](https://www.nga.gov/artworks/free-images-and-open-access) · [terms](https://www.nga.gov/terms-and-notices) | CC0 only for public-domain object images listed as open access. |
+| Art Institute of Chicago | [Collection](https://www.artic.edu/collection) · [public-domain API instructions](https://api.artic.edu/docs/) | Filter `is_public_domain=true`, verify per image; artwork descriptions may have different licensing. No bulk scraping required. |
+| Kenney | [Pixel UI](https://kenney.nl/assets/pixel-ui-pack) · [Sci-Fi UI](https://kenney.nl/assets/ui-pack-sci-fi) · [Adventure UI](https://kenney.nl/assets/ui-pack-adventure) · [Fantasy Borders](https://kenney.nl/assets/fantasy-ui-borders) · [Scribble](https://kenney.nl/assets/scribble-platformer) · [Cursor](https://kenney.nl/assets/cursor-pack) | Each official cited pack page explicitly states Creative Commons CC0; optional donations are not required for the free files. |
+| SVG Repo | [Vectors](https://www.svgrepo.com/) · [license reference](https://www.svgrepo.com/page/licensing) | Some items CC0/SVG Repo license, others CC BY/SA, MIT, or logos; verify each exact icon. |
+| Game-icons.net | [Graphic symbols](https://game-icons.net/) · [terms](https://game-icons.net/about.html) | CC BY usually requires original artist credit and a license link. |
+| Heroicons / Iconoir / Pixelarticons | [Heroicons MIT](https://heroicons.com/) · [Iconoir MIT](https://iconoir.com/) · [Pixelarticons free MIT](https://pixelarticons.com/docs/) | Keep applicable MIT source notices if redistributing icons. Pixelarticons' *Pro* set is separately paid. |
+| Creatica | [Background generator](https://creatica.app/) · [terms](https://creatica.app/terms-and-conditions) | Free browser-generated commercial-use SVG/PNG; users own generated designs. Local MIT CLI/MCP exists; optional remote API/MCP may be paid. |
+| SVGeneration | [Pattern editor](https://svgeneration.com/) | Original MIT-labeled freely customizable SVG designs; no login. |
+| Open Doodles | [Artwork](https://www.opendoodles.com/) | Creator says free personal/commercial use, no attribution required. |
+| Fontshare | [Font directory](https://www.fontshare.com/) · [about](https://www.fontshare.com/about) | Publisher describes commercial-use free fonts, but individual license/embedding and binary redistribution terms must be checked. |
+| Lospec / Piskel | [Palette archive](https://lospec.com/palette-list/) · [Piskel](https://www.piskelapp.com/) · [terms](https://www.piskelapp.com/terms/) | Color palettes and original drawing tools enable new art; displayed user artworks are not automatically licensed. |
+| Krita / Inkscape / Blender | [Krita](https://krita.org/en/) · [Inkscape](https://inkscape.org/) · [Blender license](https://www.blender.org/about/license/) | Free creation software; exported original user artwork is distinct from the licensing of any third-party assets imported. |
+| Audacity / OpenShot | [Audacity](https://www.audacityteam.org/audacity-4/) · [OpenShot](https://www.openshot.org/) | Free local audio/video production tools, not grants to use copyrighted media. |
+| Upscayl Desktop | [Local downloads](https://upscayl.org/download) | Free local image upscaling; cloud is separate and may be paid. Output inherits source intellectual-property limits. |
+| OpenGameArt | [Curated CC0 sources](https://opengameart.org/content/essential-cc0-assets) | User submissions require original work-by-work rights review; a community list is not a legal verification. |
+
+## Excluded after checking
+
+- **LottieFiles as a blanket free commercial animation recommendation**: its [Simple License](https://lottiefiles.com/page/license) and [2026 Terms](https://lottiefiles.com/page/terms-and-conditions) describe materially different commercial restrictions for free/individual plan creation. Excluded pending clear item-level resolution.
+- **Paid icon upgrades, remote generator API subscriptions, no-license transition packs, copyrighted meme/game clips, and editor-specific project templates**: not part of the no-cost, cross-editor core.
+- **Music training or generative modeling with Sonniss files**: expressly forbidden by its EULA, independent of the availability of the free archive.
+

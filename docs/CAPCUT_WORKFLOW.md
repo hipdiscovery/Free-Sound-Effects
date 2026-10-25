@@ -1,6 +1,6 @@
-# CapCut asset workflow — reliable multi-platform edits
+# Optional CapCut workflow — one consumer of the wider Creator Asset Library
 
-Use this lightweight order for Shorts/Reels/TikTok built from original gameplay and creator footage:
+This is an optional CapCut-specific workflow. The wider creative source directory is editor-agnostic and supports many art directions, including custom graphics and audio. Use this sequence for Shorts/Reels/TikTok built from original gameplay and creator footage:
 
 1. **Start with original footage.** Create a 9:16 project for vertical output; keep the original gameplay clip readable and preserve meaningful action at center.
 2. **Choose only purposeful insert footage.** Import a Pexels/Mixkit *Free License* vertical clip or similar source as B-roll if it genuinely explains the story. Don't cover a short with filler just to add motion.
