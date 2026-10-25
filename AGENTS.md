@@ -9,6 +9,13 @@ Public, dependency-free creator resource directory alongside the CC0 Ogg Vorbis 
 - Keep private owner/business details, credentials and local evidence out of this public repository. Public messages, product releases, purchases, sensitive permission expansion and destructive user-data changes retain separate authorization.
 - Preserve accessible responsive HTML/CSS/JS, relative GitHub Pages paths and the dependency-free static architecture. No backend, trackers, paid infrastructure, hidden network calls or background crawlers. Prefer existing free/local tools.
 
+## Clarity and three-audience change gate
+
+- Remove redundant slogans, explanatory filler and low-value labels. If purpose, next action or state becomes unclear without them, redesign the layout, hierarchy and affordances from first principles instead of explaining a confusing UI. Keep necessary visible input labels, accessible names, status/error/safety information and contextual help.
+- Favor recognition over recall, familiar wording, clear primary actions, progressive disclosure of rare options and recoverable errors. Do not hide frequent actions for the sake of minimalism; inspect responsive, loading, empty, error and keyboard states.
+- Every modification must improve **user experience** (task clarity and accessibility), **developer experience** (maintainable contracts, tests and diagnostics), and **AI-agent experience** (discoverable ownership, concise current instructions and repeatable verification). Identify a concrete benefit for each; preserve existing functionality, integrations and data. If any perspective regresses, revise before completing.
+
+
 ## External resource directory
 
 - `resources.json` catalogs outbound links, not mirrored assets or a redistribution grant. `resources.html`, `resources.js` and `resources.css` render the independent directory with no third-party requests until the user opens a publisher link.
