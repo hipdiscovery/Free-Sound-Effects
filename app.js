@@ -6,8 +6,15 @@ const player = new Audio();
 player.preload = "none";
 player.volume = 0.5;
 let sounds = [],
+  catalogState = "loading",
   active = null,
   playToken = 0;
+const params = new URLSearchParams(location.search);
+search.value = params.get("q") || "";
+sort.value = ["short", "long"].includes(params.get("sort"))
+  ? params.get("sort")
+  : "name";
+let requestedCategory = params.get("category") || "";
 const notice = (text) => {
   $("#notice").textContent = text;
 };
@@ -44,7 +51,7 @@ function link(text, href) {
 }
 function render() {
   stop();
-  notice("");
+  if (catalogState !== "ready") return;
   const terms = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
   const filtered = sounds.filter(
     (s) =>
@@ -157,11 +164,15 @@ $("#volume").addEventListener("input", (e) => {
 });
 $("#filters").addEventListener("submit", (e) => e.preventDefault());
 search.addEventListener("input", render);
-category.addEventListener("change", render);
+category.addEventListener("change", () => {
+  requestedCategory = category.value;
+  render();
+});
 sort.addEventListener("change", render);
 $("#reset").addEventListener("click", () => {
   search.value = "";
   category.value = "";
+  requestedCategory = "";
   sort.value = "name";
   render();
   search.focus();
@@ -176,26 +187,46 @@ document.addEventListener("keydown", (e) => {
   }
   if (e.key === "Escape") stop();
 });
-try {
-  const response = await fetch("catalog.json");
-  if (!response.ok) throw Error(`HTTP ${response.status}`);
-  const data = await response.json();
-  sounds = data.sounds;
-  [...new Set(sounds.map((s) => s.category))].sort().forEach((c) => {
-    const o = element("option", "", c);
-    o.value = c;
-    category.append(o);
-  });
-  const params = new URLSearchParams(location.search);
-  search.value = params.get("q") || "";
-  category.value = params.get("category") || "";
-  sort.value = ["short", "long"].includes(params.get("sort"))
-    ? params.get("sort")
-    : "name";
-  render();
-} catch (e) {
-  $("#count").textContent = "Catalog unavailable";
-  notice(
-    "The sound catalog could not load. Refresh the page, or browse the audio files on GitHub.",
-  );
+const retry = $("#retry");
+retry.addEventListener("click", () => {
+  if (catalogState === "error") void loadCatalog();
+});
+async function loadCatalog() {
+  catalogState = "loading";
+  $("#count").textContent = "Loading catalog…";
+  $("#catalog-notice").hidden = true;
+  $("#empty").hidden = true;
+  // Keep a retry's keyboard focus while preventing concurrent requests.
+  retry.setAttribute("aria-disabled", "true");
+  try {
+    const response = await fetch("catalog.json");
+    if (!response.ok) throw Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data.sounds)) throw Error("Invalid sound catalog");
+    sounds = data.sounds;
+    const all = element("option", "", "All categories");
+    all.value = "";
+    category.replaceChildren(all);
+    [...new Set(sounds.map((s) => s.category))].sort().forEach((c) => {
+      const o = element("option", "", c);
+      o.value = c;
+      category.append(o);
+    });
+    category.value = requestedCategory;
+    catalogState = "ready";
+    render();
+    if (document.activeElement === retry) search.focus();
+    retry.hidden = true;
+  } catch (e) {
+    catalogState = "error";
+    $("#count").textContent = "Catalog unavailable";
+    $("#empty").hidden = true;
+    $("#catalog-notice").textContent =
+      "The sound catalog could not load. Try again below, or browse the audio files on GitHub.";
+    $("#catalog-notice").hidden = false;
+    retry.hidden = false;
+  } finally {
+    retry.setAttribute("aria-disabled", "false");
+  }
 }
+await loadCatalog();

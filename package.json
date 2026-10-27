@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs && node scripts/test-validator.mjs && node scripts/validate-resources.mjs && node scripts/test-resource-validator.mjs && node scripts/validate-transition-presets.mjs && node scripts/test-transition-presets.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-validator.mjs && node scripts/validate-resources.mjs && node scripts/test-resource-validator.mjs && node scripts/validate-transition-presets.mjs && node scripts/test-transition-presets.mjs && node --test scripts/test-player.mjs scripts/test-resource-counts.mjs",
     "serve": "python -m http.server 8097 --bind 127.0.0.1"
   }
 }
