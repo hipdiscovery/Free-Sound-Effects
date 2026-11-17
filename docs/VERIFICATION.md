@@ -9,7 +9,6 @@
 - Browser checks: search (including synonym search), category filtering, duration sorting, reset, no-results state, persisted shareable query after reload, preview start and completion. Desktop and 390-pixel mobile layouts inspected; mobile had no horizontal overflow. No warning/error console messages observed on the successful public-site path.
 - Forced local catalog 503 and audio 503 failures displayed useful error feedback. Real public Scroll 001 preview reached completion. Playback was observed through browser state; physical speaker output was not independently confirmed.
 - Community contribution issue #1 created and pinned. Sound submission, sound request and rights concern templates, PR template, CONTRIBUTING.md and AGENTS.md are present.
-- Reviewed original X post, author reply, linked Notion collection and newsletter ZIP offer. That collection was excluded because original provenance and redistribution permission were not established. Details in SOURCES.md.
 
 ## Limits
 

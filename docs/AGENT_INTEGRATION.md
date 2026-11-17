@@ -5,7 +5,7 @@ This document describes the **current public static files**. It does not assert 
 ## Entry points
 
 - [Creator resources page](https://hipdiscovery.github.io/Free-Sound-Effects/resources.html): human search and 13 selectable directions, each with a copyable source-backed creative brief.
-- [Resource metadata](https://hipdiscovery.github.io/Free-Sound-Effects/resources.json): static version 1 JSON file with 74 provider/resource links, 55 font links, seven reference collections and 13 art directions as of 2026-10-25.
+- [Resource metadata](https://hipdiscovery.github.io/Free-Sound-Effects/resources.json): static version 1 JSON file with 63 provider/resource links, 48 open-source font links and 13 art directions as of 2026-11-16.
 - [Resource schema](https://hipdiscovery.github.io/Free-Sound-Effects/resources.schema.json): JSON Schema draft 2020-12 for the file shape. The schema documents structure; additional checks for rights policies and direction reference integrity are implemented in `scripts/validate-resources.mjs`.
 - [Audio files](https://hipdiscovery.github.io/Free-Sound-Effects/catalog.json): a **different** versioned catalog of the existing 100 imported Kenney CC0 OGG files. Do not infer all external sources in `resources.json` are local audio files.
 

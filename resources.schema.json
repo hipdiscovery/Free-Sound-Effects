@@ -2,15 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://hipdiscovery.github.io/Free-Sound-Effects/resources.schema.json",
   "title": "Creator Asset Library source and art-direction catalog",
-  "description": "Metadata for outbound licensed resource pages, individual fonts, reference collections, and creative-direction recipes. This is not an asset-download API or redistribution grant.",
+  "description": "Metadata for outbound licensed resource pages, individual fonts, and creative-direction recipes. This is not an asset-download API or redistribution grant.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "schemaVersion",
     "updated",
     "curator",
-    "fontsSourceUrl",
-    "collections",
     "fonts",
     "assets",
     "directions",
@@ -40,102 +38,10 @@
           "type": "string",
           "minLength": 1
         },
-        "featuredCreator": {
-          "type": "string",
-          "minLength": 1
-        },
-        "featuredCreatorUrl": {
-          "type": "string",
-          "format": "uri",
-          "pattern": "^https://"
-        },
         "profileUrl": {
           "type": "string",
           "format": "uri",
           "pattern": "^https://"
-        }
-      }
-    },
-    "fontsSourceUrl": {
-      "type": "string",
-      "format": "uri",
-      "pattern": "^https://"
-    },
-    "collections": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "title",
-          "category",
-          "itemCount",
-          "link",
-          "creatorPost",
-          "access",
-          "rights",
-          "description"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[a-z0-9-]+$"
-          },
-          "title": {
-            "type": "string",
-            "minLength": 1
-          },
-          "category": {
-            "type": "string",
-            "enum": [
-              "Audio",
-              "Video",
-              "Motion",
-              "Images",
-              "Graphics",
-              "Fonts",
-              "Tools",
-              "Planning",
-              "Business"
-            ]
-          },
-          "itemCount": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "countLabel": {
-            "type": "string",
-            "minLength": 1
-          },
-          "link": {
-            "type": "string",
-            "format": "uri",
-            "pattern": "^https://"
-          },
-          "creatorPost": {
-            "type": "string",
-            "format": "uri",
-            "pattern": "^https://"
-          },
-          "access": {
-            "type": "string",
-            "minLength": 1
-          },
-          "rights": {
-            "type": "string",
-            "minLength": 1
-          },
-          "description": {
-            "type": "string",
-            "minLength": 1
-          },
-          "downloadPage": {
-            "type": "string",
-            "format": "uri",
-            "pattern": "^https://"
-          }
         }
       }
     },
@@ -180,8 +86,7 @@
           "licenseStatus": {
             "type": "string",
             "enum": [
-              "Open-source font",
-              "Check creator license"
+              "Open-source font"
             ]
           },
           "url": {
@@ -285,7 +190,6 @@
               "cc0-filter",
               "video-commercial",
               "open-notice",
-              "check-item",
               "tool",
               "media-only",
               "cc-by",

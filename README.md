@@ -6,13 +6,11 @@
 
 ## Creator resources
 
-Seven [Muaaz (@mws)](https://x.com/mws) collections are linked at their original sources: 230+ sponsor/affiliate programs, 100+ short-form hooks, 297 external effects, 84 fonts, 120 title templates, 22 video animations and 234 thumbnail examples. The [searchable directory](resources.html) adds 30 individually observed font source links (23 commercial-use open-source Google Fonts, seven font-site listings needing license review). Full evidence, access requirements and caveats are in [the Muaaz resource review](docs/MUAAZ_RESOURCES.md), with a separate [resources.json](resources.json) machine catalog.
-
-**Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. Some author ZIP packs require email and newsletter signup; a free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
+**Only the existing 100 verified Kenney CC0 sound files are hosted here.** Other material remains external. A free download does not mean permission to rehost. No external assets are copied, visitors are not subscribed, and no tracking or hidden downloads are added.
 
 ## Broad creator resource library
 
-The [searchable creator directory](resources.html) links **74 creator-ready libraries and free tools**, with **55 individually linked fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
+The [searchable creator directory](resources.html) links **63 creator-ready libraries and free tools**, with **48 individually linked open-source fonts** and **13 deliberate art directions**. The collection spans video/B-roll, transitions, sound design, orchestral music, pixel graphics, comic/hand-drawn artwork, 3D and illustration tools, colors and type, textures, free/open museum archives and seed-based original background generators. It is not designed around one editor. A future editing plugin may use these as source options, but a GitHub link is not a connected plugin or authorized download.
 
 **Variety matters:** recommendations should fit the actual clip and differ in palette, main font, source family, sonic palette, motion vocabulary and composition. Use [Creative Directions](docs/CREATIVE_DIRECTIONS.md) and the machine-readable `directions` / `selectionPolicy` in [resources.json](resources.json) rather than repeating the same set. The site includes filters and curated options; it does not auto-install software or fetch external assets.
 
@@ -44,8 +42,6 @@ Search terms: free sound effects, CC0 audio library, game audio, UI sounds, app 
 ## Contribute
 
 Share original recordings or verified CC0 creator sources in the [community thread](https://github.com/hipdiscovery/free-sound-effects/issues/1), submit a sound/request/rights issue, or open a pull request. Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Each sound needs original-source attribution, explicit redistribution evidence and duplicate checks. Maintainer review is required; public submissions are not automatically imported.
-
-The [Muaaz sound-effects post](https://x.com/mws/status/2112338141965144309) inspired the sound section. Its claimed 297-sound collection has **not** been imported: the reply's Notion collection and ZIP offer were reviewed, but original-source ownership and redistribution rights remain unverified. See [review notes and source links](docs/SOURCES.md).
 
 ## Run locally and validate
 

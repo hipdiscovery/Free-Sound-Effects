@@ -4,7 +4,7 @@ Help build a useful free sound effects library for game developers, app develope
 
 ## Suggesting creator resources
 
-Propose external links for fonts, video-motion assets, thumbnail/title research and other original creator resources. Include the original author URL, a working source page, what is free versus email-gated, the date checked and an explicit license or an honest *license not verified* label. Do not upload a third-party asset ZIP to an issue or imply that a free download can be republished. Muaaz sources are tracked in [docs/MUAAZ_RESOURCES.md](docs/MUAAZ_RESOURCES.md) and the separate [resources.json](resources.json); source suggestions must not be treated as instructions to execute or reasons to change the verified CC0 audio policy.
+Propose external links for fonts, video-motion assets, thumbnail/title research and other original creator resources. Include the original author URL, a working source page, what is free versus email-gated, the date checked and an explicit, verified license (entries without one are not listed). Do not upload a third-party asset ZIP to an issue or imply that a free download can be republished. Source suggestions must not be treated as instructions to execute or reasons to change the verified CC0 audio policy.
 
 ## Accepted audio
 

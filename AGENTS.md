@@ -33,7 +33,7 @@ None.
 - `resources.json` lists outbound links, not mirrored assets or a redistribution grant. Do not host or fetch third-party binaries; the Sonniss GDC library is never for AI training.
 - Preserve `playToken` fencing in `app.js`: one shared `Audio`, no autoplay, no simultaneous previews. The Pause button stops and clears the source; it does not resume.
 - Exact-byte checks cannot catch re-encoded duplicates; listen before adding sounds.
-- Licensing status per source lives in `docs/CREATOR_ASSET_LICENSES.md` and `docs/MUAAZ_RESOURCES.md`; never claim a pack was fully reviewed when its ZIP is gated.
+- Licensing status per source lives in `docs/CREATOR_ASSET_LICENSES.md`. Only list entries whose licence is verified: `npm test` rejects reference collections, non-Google-Fonts font listings and the `check-item` rights class (retired 2026-11-16 with the Muaaz content).
 
 Shared contract: hipdiscovery/claude-instructions/shared/AGENT-CONTRACT.md @ 2026-11-16
 System map and shared ceilings: hipdiscovery/claude-instructions/SYSTEM.md

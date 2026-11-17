@@ -17,7 +17,10 @@ const mutations = [
   c => c.directions[0].palette[0] = "red",
   c => c.directions[1].id = c.directions[0].id,
   c => c.fonts[0].licenseStatus = "commercial-safe without evidence",
-  c => c.assets[0].checkedOn = "never"
+  c => c.assets[0].checkedOn = "never",
+  c => { c.fonts[0].licenseStatus = "Check creator license"; c.fonts[0].source = "DaFont"; c.fonts[0].url = "https://www.dafont.com/x.font"; },
+  c => { c.assets[0].rights = "check-item"; },
+  c => { c.collections = [{ id: "x" }]; }
 ];
 for (const alter of mutations) {
   const candidate = structuredClone(catalog);

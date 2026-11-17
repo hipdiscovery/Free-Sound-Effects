@@ -1,7 +1,7 @@
 const $ = selector => document.querySelector(selector);
 const input = $("#res-query"), status = $("#res-status");
-const collectionsRoot = $("#res-collections"), fontsRoot = $("#res-fonts"), assetsRoot = $("#res-assets");
-const collectionBlock = $("#res-collection-block"), fontBlock = $("#res-font-block"), assetBlock = $("#res-asset-block");
+const fontsRoot = $("#res-fonts"), assetsRoot = $("#res-assets");
+const fontBlock = $("#res-font-block"), assetBlock = $("#res-asset-block");
 const showAssetsButton = $("#res-show-assets"), showFontsButton = $("#res-show-fonts");
 const directionCards = $("#res-direction-cards"), directionNext = $("#res-next-directions");
 const directionBanner = $("#res-active-direction"), directionTitle = $("#res-active-title");
@@ -22,18 +22,6 @@ function link(label, url) {
   a.setAttribute("aria-label", label.replace(" ↗", "") + " (opens in new tab)");
   return a;
 }
-function collectionCard(item) {
-  const card = node("article", "res-card");
-  const top = node("div", "res-card-top");
-  top.append(node("span", "", item.category), node("span", "res-count", item.countLabel || item.itemCount + " items"));
-  const details = node("div", "res-card-details");
-  details.append(node("span", "res-access", item.access), node("span", "res-rights", item.rights));
-  const links = node("div", "res-card-links");
-  links.append(link("Open original ↗", item.link), link("Creator post ↗", item.creatorPost));
-  if (item.downloadPage) links.append(link("ZIP information ↗", item.downloadPage));
-  card.append(top, node("h3", "", item.title), node("p", "", item.description), details, links);
-  return card;
-}
 function fontCard(font) {
   const card = node("article", "res-font-card");
   const head = node("div", "res-font-top");
@@ -48,7 +36,7 @@ function rightsLabel(asset) {
   const labels = {
     "cc0":"CC0 source", "cc0-filter":"Only marked CC0 works",
     "cc-by":"Credit required", "open-notice":"Open license · retain notices",
-    "media-only":"Finished media only · no AI training", "check-item":"Check individual license",
+    "media-only":"Finished media only · no AI training",
     "video-commercial":"Finished commercial edits", "free-generated":"Original commercial-use outputs",
     "font-commercial":"Commercial fonts · check EULA", "tool":"Free creation tool"
   };
@@ -180,8 +168,6 @@ function render() {
     (!selectedAssetIds || selectedAssetIds.has(item.id)) &&
     (category === "All" || item.category === category) && matches(item, terms)
   ).sort((a,b) => active ? active.assetIds.indexOf(a.id)-active.assetIds.indexOf(b.id) : (a.priority||2)-(b.priority||2)||a.title.localeCompare(b.title));
-  const collections = catalog.collections.filter(item => !active &&
-    (category === "All" || item.category === category) && matches(item, terms));
   const fonts = catalog.fonts.filter(item =>
     (!selectedFontIds || selectedFontIds.has(item.id)) &&
     (category === "All" || category === "Fonts") && matches(item, terms));
@@ -189,16 +175,15 @@ function render() {
   const visibleAssets = initial && !expandAssets ? diversify(assets, 12, "publisher") : assets;
   const visibleFonts = initial && !expandFonts ? diversify(fonts, 12, "source") : fonts;
   assetsRoot.replaceChildren(...visibleAssets.map(assetCard));
-  collectionsRoot.replaceChildren(...collections.map(collectionCard));
   fontsRoot.replaceChildren(...visibleFonts.map(fontCard));
-  assetBlock.hidden = assets.length === 0; collectionBlock.hidden = collections.length === 0; fontBlock.hidden = fonts.length === 0;
+  assetBlock.hidden = assets.length === 0; fontBlock.hidden = fonts.length === 0;
   showAssetsButton.hidden = !(initial && assets.length > 12);
   showAssetsButton.textContent = expandAssets ? "Show curated highlights ↑" : "View all " + assets.length + " creative sources ↓";
   showFontsButton.hidden = !(initial && fonts.length > 12);
   showFontsButton.textContent = expandFonts ? "Show fewer fonts ↑" : "View all " + fonts.length + " font families ↓";
-  const total = assets.length + collections.length + fonts.length;
+  const total = assets.length + fonts.length;
   empty.hidden = total !== 0;
-  status.textContent = assets.length + " creative sources · " + collections.length + " creator collections · " + fonts.length + " font links";
+  status.textContent = assets.length + " creative sources · " + fonts.length + " font links";
   filterButtons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.filter === category)));
   const params = new URLSearchParams();
   if (input.value.trim()) params.set("q", input.value.trim());
@@ -221,13 +206,12 @@ document.addEventListener("keydown", event => {
   }
 });
 try {
-  const response = await fetch("resources.json?v=20261025-7");
+  const response = await fetch("resources.json?v=20261116-1");
   if (!response.ok) throw Error("HTTP " + response.status);
   const data = await response.json();
-  if (data.schemaVersion !== 1 || !Array.isArray(data.assets) || !Array.isArray(data.collections) || !Array.isArray(data.fonts) || !Array.isArray(data.directions)) throw Error("Unsupported catalog");
+  if (data.schemaVersion !== 1 || !Array.isArray(data.assets) || !Array.isArray(data.fonts) || !Array.isArray(data.directions)) throw Error("Unsupported catalog");
   catalog = data;
   $("#asset-total").textContent = data.assets.length;
-  $("#collection-total").textContent = data.collections.length;
   $("#font-total").textContent = data.fonts.length;
   const params = new URLSearchParams(location.search);
   input.value = params.get("q") || "";
@@ -237,6 +221,6 @@ try {
   renderDirections(); render();
 } catch {
   status.textContent = "The resource directory could not load. Refresh or open resources.json directly.";
-  assetBlock.hidden = true; fontBlock.hidden = true; collectionBlock.hidden = true;
+  assetBlock.hidden = true; fontBlock.hidden = true;
   $("#res-next-directions").disabled = true;
 }
