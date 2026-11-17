@@ -35,5 +35,5 @@ None.
 - Exact-byte checks cannot catch re-encoded duplicates; listen before adding sounds.
 - Licensing status per source lives in `docs/CREATOR_ASSET_LICENSES.md`. Only list entries whose licence is verified: `npm test` rejects reference collections, non-Google-Fonts font listings and the `check-item` rights class (retired 2026-11-16 with the Muaaz content).
 
-Shared contract: hipdiscovery/claude-instructions/shared/AGENT-CONTRACT.md @ 2026-11-16
-System map and shared ceilings: hipdiscovery/claude-instructions/SYSTEM.md
+Shared contract: hipdiscovery/Claude-Instructions/shared/AGENT-CONTRACT.md @ 2026-11-16
+System map and shared ceilings: hipdiscovery/Claude-Instructions/SYSTEM.md
